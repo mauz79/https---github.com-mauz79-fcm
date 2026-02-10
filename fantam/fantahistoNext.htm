@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>FantaHisto</title>
+
+<script src="fcmTpNext.js" type="text/javascript"></script>
+<link href="fantamister.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<br>
+<script type="text/javascript">
+for(i=1;i<=arrNextDay.length-1;i++) {
+document.write("<table class='fantahisto' cellspacing='0' cellpadding='2' summary=''><tr class='intestazione'><td colspan='7' class='int_generale'>"+arrNextDay[i].sqCasa+"</td><td >-</td><td colspan='7' class='int_generale'>"+arrNextDay[i].sqFuori+"</td>");
+document.write("</tr><tr class='intestazione2a'><td >&nbsp;</td><td >&nbsp;</td><td colspan='5' >GENERALE</td><td >&nbsp;</td><td colspan='3' >IN CASA</td><td >&nbsp;</td><td colspan='3' >FUORI CASA</td></tr>");
+document.write("<tr><td class='int_casa_p'>Tot</td><td class='int_casa_p'>-</td><td class='int_casa_p'>V</td><td class='int_casa_p'>N</td><td class='int_casa_p'>P</td><td class='int_casa_p'>Gf</td><td class='int_casa_p'>Gs</td><td class='int_casa_p'>-</td><td class='int_casa_p'>V</td><td class='int_casa_p'>N</td><td class='int_casa_p'>P</td><td class='int_casa_p'>-</td><td class='int_casa_p'>V</td><td class='int_casa_p' >N</td><td class='int_casa_p'>P</td></tr>");
+document.write("<tr><td class='int_casa_p'>"+arrNextDay[i].Tot+"</td><td class='int_casa_p'>-</td><td class='int_casa_p'>"+arrNextDay[i].Gv+"</td><td class='int_casa_p'>"+arrNextDay[i].Gn+"</td><td class='int_casa_p'>"+arrNextDay[i].Gp+"</td><td class='int_casa_p'>"+arrNextDay[i].Ggf+"</td><td class='int_casa_p'>"+arrNextDay[i].Ggs+"</td>");
+document.write("<td class='int_casa_p'>-</td><td class='int_casa_p'>"+arrNextDay[i].ICv+"</td><td class='int_casa_p'>"+arrNextDay[i].ICn+"</td><td class='int_casa_p'>"+arrNextDay[i].ICp+"</td>");
+document.write("<td class='int_casa_p'>-</td><td class='int_casa_p'>"+arrNextDay[i].FCv+"</td><td class='int_casa_p'>"+arrNextDay[i].FCn+"</td><td class='int_casa_p'>"+arrNextDay[i].FCp+"</td></tr>");
+document.write("</table>");
+document.write("<br>");
+}
+</script>
+</body></html>

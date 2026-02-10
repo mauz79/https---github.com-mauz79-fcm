@@ -1,0 +1,74 @@
+<html>
+  <head>
+	<meta name="author" content="Lukesky">
+        <META HTTP-EQUIV=Expires CONTENT="-1">
+	<title>FantaAlbum</title>
+	<script src="js/fcmVariabili.js" type="text/javascript"></script>
+	<script src="js/fcmLegaDati.js" type="text/javascript"></script>
+	<script src="js/fcmGenerale.js" type="text/javascript"></script>
+	<script src="js/fcmUtils.js" type="text/javascript"></script>
+	<script src="js/fcmSerieAFunzioni.js" type="text/javascript"></script>
+	<script src="js/fcmSerieADati.js" type="text/javascript"></script>
+	<script src="js/fcmSerieADatiDettaglio.js" type="text/javascript"></script>
+	<script src="js/fcmFantasquadreFunzioni.js" type="text/javascript"></script>
+	<script src="js/fcmFantasquadreDati.js" type="text/javascript"></script>
+	<script src="js/fcmAlboDOroFunzioni.js" type="text/javascript"></script>
+	<script src="js/fcmAlboDOroDati.js" type="text/javascript"></script>
+	<script src="js/fcmCompetizioniFunzioni.js" type="text/javascript"></script>
+	<script src="js/fcmCompetizioniDati.js" type="text/javascript"></script>
+	<script src="js/fcmTabelle.js" type="text/javascript"></script>
+      <script src="js/fcmCalendarioFunzioni.js" type="text/javascript"></script>
+	<script src="js/fcmCalendarioDati.js" type="text/javascript"></script>
+	<script src="persjs/fcmConfrontiFunzioni.js" type="text/javascript"></script>
+	<script src="persjs/fcmConfrontiDati.js" type="text/javascript"></script>
+	<script src="persjs/fcmAlbumFunzioni.js" type="text/javascript"></script>
+	<script src="persjs/fcmAlbumDati.js" type="text/javascript"></script>
+	<script src="persjs/fcmAlbumVariabili.js" type="text/javascript"></script>
+	<script src="js/fcmTabelle.js" type="text/javascript"></script>
+	<script src="js/DataA.js" type="text/javascript"></script>
+	<script language="javascript" type="text/javascript">
+	   document.write("<style type='text/css' media='all'>")
+           if (lcsTipoCss=="1") {
+	      document.write("@import " + '"' + "albummael.css" + '"' + ";")
+           } else {
+	      document.write("@import " + '"' + "album.css" + '"' + ";")
+	   }
+	   document.write("</style")
+	</script>		
+	<base target="_self">
+  </head>
+<body>
+ 
+ 
+ 
+ 
+ 
+<!-- TABELLA CONTENT --><table border=0 align="left" width="580">
+<tr><td>
+				<h2> <span class="bodyLeft">Album Calciatori Fantasquadre</span></h2>
+			<!-- FINE INTESTAZIONE PAGINA -->
+				<script language="javascript" type="text/javascript">
+					var cFsq = JSQueryString("Fsq")
+					if (cFsq == null||cFsq=="") {
+                                           for (i=1;i<arrAdOFantasquadre.length;i++) {
+        				      if (arrAdOFantasquadre[i].idAttuale != 0 ) {
+						//cFsq=arrAdOFantasquadre[1].IDf
+						cFsq=arrAdOFantasquadre[i].IDf
+						i=arrAdOFantasquadre.length
+                                              }
+                                           }
+                                        }
+					GeneraIntestazioneFantasquadreAlb(cFsq)
+				</script>
+</td><td></td></tr>
+<tr></tr><tr></tr><tr></tr><tr></tr>
+				<script language="javascript" type="text/javascript">	
+					GeneraAlbum(cFsq) 
+				</script>
+
+</TABLE>
+<!-- END TABELLA CONTENT -->
+ 
+</body>
+</html>
+

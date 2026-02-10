@@ -1,0 +1,184 @@
+BODY {
+	COLOR: #003366; 
+	BACKGROUND-COLOR: #ffFFFF;
+}
+
+A {
+	COLOR: #000000;
+	FONT-FAMILY: "Trebuchet MS";
+	FONT-STYLE: normal;
+	FONT-WEIGHT: normal;
+	TEXT-DECORATION: none;
+}
+
+A:visited {
+	COLOR: #003366;
+	TEXT-DECORATION: none;
+}
+
+A:hover {
+	COLOR: #003366;
+	TEXT-DECORATION: underline;
+}
+
+A:active {
+	COLOR: #003366;
+	TEXT-DECORATION: underline;
+}
+
+A.normlink {
+	COLOR: #003366;
+	FONT-FAMILY: "Trebuchet MS";
+	FONT-STYLE: normal;
+	FONT-WEIGHT: normal;
+	TEXT-DECORATION: none;
+}
+
+A.normlink:visited {
+	COLOR: #003366;
+	TEXT-DECORATION: none;
+}
+
+A.normlink:hover {
+	COLOR: #003366;
+	TEXT-DECORATION: underline;
+}
+
+A.normlink:active {
+	COLOR: #003366;
+	TEXT-DECORATION: underline;
+}
+
+A.tablelink {
+	COLOR: #003366;
+	FONT-FAMILY: "Trebuchet MS";
+	FONT-STYLE: normal;
+	FONT-WEIGHT: normal;
+}
+
+A.tablelink:visited {
+	COLOR: #003366;
+	TEXT-DECORATION: none;
+}
+
+A.tablelink:hover {
+	COLOR: #003366;
+	TEXT-DECORATION: underline;
+}
+
+A.tablelink:active {
+	COLOR: #003366;
+	TEXT-DECORATION: underline;
+}
+
+TR.tableheader {
+	background-color:#003366;
+	FONT-FAMILY: "Trebuchet MS";
+	FONT-SIZE: xx-small;
+	FONT-STYLE: normal;
+	FONT-WEIGHT: bold;
+	BORDER: 1px solid #003366;
+}
+
+TR.tablerow1 {
+	color: #003366;
+    background-color: #ffFFFF;
+    BORDER: 1px solid #003366;
+    font-weight: bold;
+    text-align: left;
+}
+
+TR.tablerow2 {
+	color: #003366;
+    background-color: #FFFFFF;
+    BORDER: 1px solid #003366;
+    font-weight: bold;
+    text-align: left;
+}
+
+TR.searchresult {
+	BACKGROUND: #A5A5A5;
+	BORDER: 1px solid #003366;
+}
+
+DIV.fat {
+	FONT-WEIGHT: bold;
+}
+
+FONT.header {
+	COLOR: #003366;
+}
+
+FONT.normalcol {
+	COLOR: #003366;
+}
+
+FONT.number {
+	COLOR: #003366;
+}
+
+FONT.copyright {
+	COLOR: #FFFFFF;
+}
+
+FONT.attention {
+	COLOR: #E01010;
+}
+
+TD.header {
+	FONT-FAMILY: "Trebuchet MS";
+	FONT-STYLE: normal;
+	FONT-WEIGHT: normal;
+	BORDER: 1px solid #003366;
+   	background-color:#FFFFFF;
+}
+
+TD.normalcol {
+	FONT-FAMILY: "Trebuchet MS";
+	FONT-SIZE: small;
+	FONT-STYLE: normal;
+	FONT-WEIGHT: normal;
+	BORDER: 1px solid #003366;
+}
+
+INPUT.text {
+	BACKGROUND-COLOR: #FFFFFF;
+	BORDER-BOTTOM-COLOR: #000000;
+	BORDER-BOTTOM-WIDTH: 1px;
+	BORDER-LEFT-COLOR: #000000;
+	BORDER-LEFT-WIDTH: 1px;
+	BORDER-RIGHT-COLOR: #000000;
+	BORDER-RIGHT-WIDTH: 1px;
+	BORDER-TOP-COLOR: #000000;
+	BORDER-TOP-WIDTH: 1px;
+	COLOR: #000000;
+	FONT-FAMILY: "Trebuchet MS";
+	FONT-SIZE: 10pt;
+	MARGIN-BOTTOM: 1px;
+	MARGIN-TOP: 1px;
+}
+
+INPUT.submit {
+	BORDER-BOTTOM-COLOR: #000000;
+	BORDER-BOTTOM-WIDTH: 1px;
+	BORDER-LEFT-COLOR: #000000;
+	BORDER-LEFT-WIDTH: 1px;
+	BORDER-RIGHT-COLOR: #000000;
+	BORDER-RIGHT-WIDTH: 1px;
+	BORDER-TOP-COLOR: #000000;
+	BORDER-TOP-WIDTH: 1px;
+	COLOR: #000000;
+	FONT-FAMILY: "Trebuchet MS";
+	FONT-SIZE: 9px;
+	FONT-WEIGHT: bold;
+	HEIGHT: 11px;
+}
+
+TEXTAREA {
+	BACKGROUND-COLOR: #FFFFFF;
+	COLOR: #000000;
+	FONT-FAMILY: "Trebuchet MS";
+	FONT-SIZE: 10pt;
+	OVERFLOW-X: hidden;
+	OVERFLOW-Y: auto
+}

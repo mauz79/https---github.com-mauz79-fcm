@@ -1,0 +1,106 @@
+<html>
+  <head>
+	<meta name="author" content="Lukesky">
+        <META HTTP-EQUIV=Expires CONTENT="-1">
+	<title>Fanta Almanacco Fantasquadre</title>
+	<script src="js/fcmVariabili.js" type="text/javascript"></script>
+	<script src="js/fcmLegaDati.js" type="text/javascript"></script>
+	<script src="js/fcmGenerale.js" type="text/javascript"></script>
+	<script src="js/fcmUtils.js" type="text/javascript"></script>
+	<script src="js/fcmSerieAFunzioni.js" type="text/javascript"></script>
+	<script src="js/fcmSerieADati.js" type="text/javascript"></script>
+	<script src="js/fcmSerieADatiDettaglio.js" type="text/javascript"></script>
+	<script src="js/fcmFantasquadreFunzioni.js" type="text/javascript"></script>
+	<script src="js/fcmFantasquadreDati.js" type="text/javascript"></script>
+	<script src="js/fcmAlboDOroFunzioni.js" type="text/javascript"></script>
+	<script src="js/fcmAlboDOroDati.js" type="text/javascript"></script>
+	<script src="js/fcmCompetizioniFunzioni.js" type="text/javascript"></script>
+	<script src="js/fcmCompetizioniDati.js" type="text/javascript"></script>
+	<script src="js/fcmTabelle.js" type="text/javascript"></script>
+      <script src="js/fcmCalendarioFunzioni.js" type="text/javascript"></script>
+	<script src="js/fcmCalendarioDati.js" type="text/javascript"></script>
+	<script src="persjs/fcmAlmanaccoFunzioni.js" type="text/javascript"></script>
+	<script src="persjs/fcmAlmanaccoDati.js" type="text/javascript"></script>
+        <script src="persjs/fcmAlbumVariabili.js" type="text/javascript"></script>
+	<script src="js/fcmTabelle.js" type="text/javascript"></script>
+	<script src="js/DataA.js" type="text/javascript"></script>
+	<script language="javascript" type="text/javascript">
+	   document.write("<style type='text/css' media='all'>")
+           if (lcsTipoCss=="1") {
+	      document.write("@import " + '"' + "almanaccomael.css" + '"' + ";")
+           } else {
+	      document.write("@import " + '"' + "almanacco.css" + '"' + ";")
+	   }
+	   document.write("</style")
+	</script>
+        <base target="_self">
+  </head>
+<body>
+ 
+ 
+ 
+ 
+ 
+<!-- TABELLA CONTENT --><table border=0 align="left" width="610">
+<tr>
+   <td>
+      <table width=100%>
+        <tr>
+           <td>
+		<h2> <span class="bodyLeft">Fanta Almanacco Fantasquadre</span></h2>
+	   </td>
+           <td>
+                <div id="probformh" class="IntLayer" align="right">
+		    <script language="javascript" type="text/javascript">
+		       var cFsq = JSQueryString("Fsq");
+                       document.write("<a href='topFlopStorico.htm?Fsq=" + cFsq + "&modTop11=0&modFlop11=0'><b><nobr>Top & Flop 11 Storici</nobr></b></a>")
+                       document.write("&nbsp|&nbsp<a href='rating.htm?Fsq=" + cFsq + "'><b><nobr>FantaRating</nobr></b></a>")
+		    </script>
+                </div>
+           </td>
+        </tr>
+      </table>
+   </td>
+</tr>
+
+
+<tr><td>
+				<script language="javascript" type="text/javascript">
+					var cFsq = JSQueryString("Fsq")
+					if (cFsq == null||cFsq=="") cFsq=arrAdOFantasquadre[1].IDf
+						GeneraIntestazioneFantasquadreAlm(cFsq)
+				</script>
+</td></tr>
+<tr></tr><tr></tr><tr></tr><tr></tr>
+				<tr><td>
+				<table>
+				<tr><td>
+				<script language="javascript" type="text/javascript">	
+					GeneraFedelissimi(cFsq) 
+				</script>
+				</td><td>
+				<script language="javascript" type="text/javascript">	
+					GeneraCannonieri(cFsq)
+				</script>
+				</td>
+				</tr>
+				<tr><td>
+				<script language="javascript" type="text/javascript">	
+					GeneraCattivi(cFsq) 
+				</script>
+				</td><td>
+				<script language="javascript" type="text/javascript">	
+					GeneraBestieNere(cFsq)
+				</script>
+				</td>
+				</tr>
+				</table>
+				</td></tr>
+				
+
+</TABLE>
+<!-- END TABELLA CONTENT -->
+ 
+</body>
+</html>
+

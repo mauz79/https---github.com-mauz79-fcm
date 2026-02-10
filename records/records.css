@@ -1,0 +1,131 @@
+/* Created by TopStyle Pro Trial Version - www.bradsoft.com */
+/*PARAMETRI PER IL FILE FANTA.PHP */
+body {
+ font-family: "Trebuchet MS";
+ font-size: 12px;
+ font-weight: normal;
+ margin: 20px;
+ padding: 0px; 
+ /*background-color: #FFFFFF;*/
+}
+
+/*TABLE*/
+table.principale{
+	border: 1px solid #003366;
+	padding-bottom: 12px;
+   	width: 100%;
+	background-color: #FFFFFF;
+}
+table.competizioni{
+	/*border: 1px solid;*/
+  	font-family: "Trebuchet MS";
+  	font-size: 12px;
+   	font-weight: normal;
+	width: 100%;
+	/*border: 1px solid;*/
+	background-color: #FFFFFF;
+}
+/*RIGHE*/
+
+/*COLONNE*/
+td.testata{
+padding-left: 10px; 
+padding-top: 12px; 
+padding-right: 15px;
+}
+td.comptit {
+color: #FFFFFF;
+background-color: #003366;
+border: 1px solid #ff0000;
+width: 50%;
+padding: 2;
+font-weight: bold;
+text-align: left;
+font-family: Trebuchet MS;
+font-size: 12px;
+}
+
+td.comptitneg{
+ color:  #FFFFFF;
+ background-color: #003366;
+ border: 1px solid #ff0000;
+ width: 50%;
+ padding: 2;
+ font-weight: bold;
+ text-align: right;
+}
+td.compnum{
+ color: #003366;
+ background-color: #ffffff;
+ border: 1px solid #ff0000;
+ width: 5%;
+ padding: 2;
+ font-weight: bold;
+ text-align: center;
+}
+td.compvuota{
+ width: 2%;
+}
+td.compsquadra{
+ color: #003366;
+ background-color: #FFFFFF;
+ border: 1px solid #ff0000;
+ width: 44%;
+ padding: 2;
+ font-weight: bold;
+ text-align: left;
+}
+td.compsquadraneg{
+ color: #003366;
+ background-color: #FFFFFF;
+ border: 1px solid #ff0000;
+ width: 44%;
+ padding: 2;
+ font-weight: bold;
+ text-align: right;
+}
+/*TESTO*/
+h1.titolo{
+ font-family: "Trebuchet MS";
+ font-size: 20px;
+ font-weight: normal;
+ line-height: 20px;
+ border-bottom: 1px solid #ff0000;
+ color: #003366;
+ background-color: transparent;
+}
+h1.competizione{
+ font-family: "Trebuchet MS";
+ font-size: 13px;
+ font-weight: bold;
+ line-height: 20px;
+ border: 1px solid #ff0000;
+ color: #003366;
+ background-color: white;
+ padding: 2px;
+} 
+h2.aggiorn{
+ font-family: "Trebuchet MS";
+ font-size: 12px;
+ font-weight: normal;
+ line-height: 20px;
+ color: #003366;
+ padding: 2px;
+} 
+/*COPYRIGHT*/
+.cpr {
+ font-family: "Trebuchet MS";
+ font-size: 10px;
+ font-weight: normal;
+ line-height: 14px;
+ color: #999999;
+ background-color: transparent;
+}
+.cpr2 {
+ font-family: "Trebuchet MS";
+ font-size: 10px;
+ font-weight: bold;
+ line-height: 14px;
+ color: #999999;
+ background-color: transparent;
+}

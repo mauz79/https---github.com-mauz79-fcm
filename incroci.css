@@ -1,0 +1,25 @@
+body { font-family: 'Open Sans', 'Roboto', sans-serif; background-color: #f0f2f5; color: #333; margin: 0; padding: 20px; }
+.container_competizione { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 30px; border-top: 4px solid #003366; }
+.titletext { color: #003366; font-size: 20px; font-weight: 700; margin: 0 0 20px 0; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+.ClassTabellaincroci { width: 100%; border-collapse: collapse; font-size: 11px; margin-bottom: 1rem; }
+.ClassTabellaincroci th, .ClassTabellaincroci td { padding: 4px; vertical-align: middle; border: 1px solid #e0e0e0; }
+.rigaintestazione { background-color: #343a40; color: #ffffff; text-align: center; font-weight: 600; font-size: 13px; letter-spacing: 0.3px; border-radius: 3px 3px 0 0; padding: 8px; }
+.rigasquadre { background-color: #f8f9fa; color: #495057; font-weight: 700; text-align: center; border-bottom: 2px solid #dee2e6; height: auto; }
+.header-squadra { font-size: 10px; line-height: 1.1; word-wrap: break-word; white-space: normal; vertical-align: bottom; padding: 5px 2px; width: 60px; max-width: 70px; }
+.cellasquadra { font-weight: 600; color: #2c3e50; text-align: left; background-color: #fdfdfd; padding-left: 8px; white-space: nowrap; }
+.t-xxsVerde { background-color: #d4edda; color: #000; font-weight: 700; text-align: center; }
+.t-xxsRosso { background-color: #f8d7da; color: #000; font-weight: 700; text-align: center; }
+.t-xxsNeutro { background-color: #fffde7; color: #000; text-align: center; }
+.t-xxsDiagonale { background-color: #ffffff; color: #000; font-weight: 700; text-align: center; border: 2px solid #eee; }
+.stat-label { font-size: 11px; padding-left: 10px; width: 60%; }
+.stat-value { width: 25%; text-align: center; }
+.stat-diff { font-size: 11px; text-align: right; padding-right: 20px; width: 15%; white-space: nowrap; }
+.t-statVerde { background-color: #28a745; color: white; font-weight: 600; padding: 3px 8px; border-radius: 12px; font-size: 11px; display: inline-block; width: 90%; box-sizing: border-box; }
+.t-statRosso { background-color: #dc3545; color: white; font-weight: 600; padding: 3px 8px; border-radius: 12px; font-size: 11px; display: inline-block; width: 90%; box-sizing: border-box; }
+.avulsa-table { width: 100%; border-collapse: collapse; font-family: 'Open Sans', sans-serif; margin-top: 10px; }
+.avulsa-row { border-bottom: 1px solid #dc3545; background-color: #fff; height: 35px; }
+.avulsa-rank { color: #dc3545; font-weight: 700; font-size: 14px; width: 30px; text-align: center; }
+.avulsa-team { color: #003366; font-weight: 600; font-size: 13px; text-align: left; padding-left: 10px; }
+.avulsa-points { color: #003366; font-size: 14px; text-align: right; padding-right: 5px; font-weight: 700; width: 40px; }
+.avulsa-perf { color: #6c757d; font-size: 11px; text-align: right; padding-right: 10px; width: 50px; font-weight: 400; }
+.cpr { font-size: 11px; color: #999; margin-top: 20px; }

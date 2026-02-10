@@ -1,0 +1,472 @@
+set 16, 2025 7:58:43 PM main.CalendariIncrociati main
+INFORMAZIONI: argomenti in input: 0
+set 16, 2025 7:59:04 PM dao.FcmDao getListaCompetizioni
+INFORMAZIONI: Estrazione dell'elenco delle competizioni
+set 16, 2025 7:59:08 PM dao.FcmDao getListaGironi
+INFORMAZIONI: Estrazione dell'elenco dei gironi
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Creazione cartella files
+set 16, 2025 7:59:09 PM dao.FcmDao getSquadreGirone
+INFORMAZIONI: Estrazione squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getSquadreGirone
+INFORMAZIONI: Squadre: {39=Atletico Van Goof, 13=Tapparella P.D., 11=Scarsenal, 8=River Pino, 76=11 Outsiders A.S.D., 51=Dellimellow FC, 4=Cristos F.C., 2=FC Longobarda, 25=Real Moscardelli, 23=Red Bull F.C.}
+set 16, 2025 7:59:09 PM dao.FcmDao getRegoleCompetizione
+INFORMAZIONI: Estrazione delle regole della competizione
+set 16, 2025 7:59:09 PM dao.FcmDao getGiornate
+INFORMAZIONI: Estrazione lista giornate
+set 16, 2025 7:59:09 PM dao.FcmDao getSquadreIscritte
+INFORMAZIONI: Estrazione squadre iscritte
+set 16, 2025 7:59:09 PM dao.FcmDao getFasceModificatoreDifesa
+INFORMAZIONI: Estrazione fasce modificatore difesa
+set 16, 2025 7:59:09 PM dao.FcmDao getContributoNumeroDifensoriModificatoreDifesa
+INFORMAZIONI: Estrazione contributo numero difensori per modificatore difesa
+set 16, 2025 7:59:09 PM dao.FcmDao getFasceModificatoreCentrocampo
+INFORMAZIONI: Estrazione fasce modifcatore centrocampo
+set 16, 2025 7:59:09 PM dao.FcmDao getFasceConversioneGol
+INFORMAZIONI: Estrazione fasce gol
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Inizializzazione totale punti
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Inizio analisi
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1933.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32149, 32150, 32151, 32152, 32153]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=11, 23=2, 51=4, 76=8, 8=76C, 13=39C, 4=51C, 39=13, 11=25C, 2=23C}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Inizio inversione calendari
+set 16, 2025 7:59:09 PM main.CalendariIncrociati renderHTML
+INFORMAZIONI: Provo a salvare il file: incrodet/1933.html
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1934.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32154, 32155, 32156, 32157, 32158]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=13C, 23=4C, 51=8C, 76=11C, 8=51, 4=23, 13=25, 39=2C, 2=39, 11=76}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1935.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32159, 32160, 32161, 32162, 32163]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=2, 23=39C, 51=11, 76=13, 8=4, 4=8C, 13=76C, 39=23, 2=25C, 11=51C}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1936.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32164, 32165, 32166, 32167, 32168]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=23C, 23=25, 51=13C, 76=2C, 8=11C, 13=51, 4=39, 39=4C, 11=8, 2=76}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1937.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32169, 32170, 32171, 32172, 32173]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=39, 23=76C, 51=2, 76=23, 8=13, 4=11C, 13=8C, 39=25C, 11=4, 2=51C}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1938.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32174, 32175, 32176, 32177, 32178]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=4C, 23=51, 51=23C, 76=39C, 8=2C, 13=11, 4=25, 39=76, 11=13C, 2=8}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1939.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32179, 32180, 32181, 32182, 32183]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=76C, 23=8C, 51=39, 76=25, 8=23, 4=13C, 13=4, 39=51C, 2=11C, 11=2}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1940.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32184, 32185, 32186, 32187, 32188]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=51, 23=11, 51=25C, 76=4C, 8=39C, 4=76, 13=2C, 39=8, 11=23C, 2=13}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1941.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32189, 32190, 32191, 32192, 32193]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=8C, 23=13C, 51=76, 76=51C, 8=25, 13=23, 4=2C, 39=11C, 2=4, 11=39}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1942.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32194, 32195, 32196, 32197, 32198]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=11C, 23=2C, 51=4C, 76=8C, 8=76, 4=51, 13=39, 39=13C, 2=23, 11=25}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1943.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32199, 32200, 32201, 32202, 32203]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=13, 23=4, 51=8, 76=11, 8=51C, 4=23C, 13=25C, 39=2, 2=39C, 11=76C}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1944.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32204, 32205, 32206, 32207, 32208]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=2C, 23=39, 51=11C, 76=13C, 8=4C, 13=76, 4=8, 39=23C, 11=51, 2=25}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1945.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32209, 32210, 32211, 32212, 32213]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=23, 23=25C, 51=13, 76=2, 8=11, 13=51C, 4=39C, 39=4, 11=8C, 2=76C}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1946.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32214, 32215, 32216, 32217, 32218]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=39C, 23=76, 51=2C, 76=23C, 8=13C, 13=8, 4=11, 39=25, 2=51, 11=4C}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1947.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32219, 32220, 32221, 32222, 32223]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=4, 23=51C, 51=23, 76=39, 8=2, 13=11C, 4=25C, 39=76C, 11=13, 2=8C}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1948.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32224, 32225, 32226, 32227, 32228]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=76, 23=8, 51=39C, 76=25C, 8=23C, 4=13, 13=4C, 39=51, 11=2C, 2=11}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1949.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32229, 32230, 32231, 32232, 32233]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=51C, 23=11C, 51=25, 76=4, 8=39, 13=2, 4=76C, 39=8C, 2=13C, 11=23}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1950.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32234, 32235, 32236, 32237, 32238]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=8, 23=13, 51=76C, 76=51, 8=25C, 4=2, 13=23C, 39=11, 2=4C, 11=39C}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1951.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32239, 32240, 32241, 32242, 32243]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=11, 23=2, 51=4, 76=8, 8=76C, 13=39C, 4=51C, 39=13, 11=25C, 2=23C}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1952.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32244, 32245, 32246, 32247, 32248]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=13C, 23=4C, 51=8C, 76=11C, 8=51, 4=23, 13=25, 39=2C, 2=39, 11=76}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1953.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32249, 32250, 32251, 32252, 32253]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=2, 23=39C, 51=11, 76=13, 8=4, 4=8C, 13=76C, 39=23, 2=25C, 11=51C}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1954.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32254, 32255, 32256, 32257, 32258]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=23C, 23=25, 51=13C, 76=2C, 8=11C, 13=51, 4=39, 39=4C, 11=8, 2=76}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1955.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32259, 32260, 32261, 32262, 32263]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=39, 23=76C, 51=2, 76=23, 8=13, 4=11C, 13=8C, 39=25C, 11=4, 2=51C}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1956.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32264, 32265, 32266, 32267, 32268]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=4C, 23=51, 51=23C, 76=39C, 8=2C, 13=11, 4=25, 39=76, 11=13C, 2=8}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1957.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32269, 32270, 32271, 32272, 32273]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=76C, 23=8C, 51=39, 76=25, 8=23, 4=13C, 13=4, 39=51C, 2=11C, 11=2}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1958.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32274, 32275, 32276, 32277, 32278]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=51, 23=11, 51=25C, 76=4C, 8=39C, 4=76, 13=2C, 39=8, 11=23C, 2=13}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1959.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32279, 32280, 32281, 32282, 32283]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=8C, 23=13C, 51=76, 76=51C, 8=25, 13=23, 4=2C, 39=11C, 2=4, 11=39}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1960.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32284, 32285, 32286, 32287, 32288]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=11C, 23=2C, 51=4C, 76=8C, 8=76, 4=51, 13=39, 39=13C, 2=23, 11=25}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1961.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32289, 32290, 32291, 32292, 32293]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=13, 23=4, 51=8, 76=11, 8=51C, 4=23C, 13=25C, 39=2, 2=39C, 11=76C}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1962.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32294, 32295, 32296, 32297, 32298]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=2C, 23=39, 51=11C, 76=13C, 8=4C, 13=76, 4=8, 39=23C, 11=51, 2=25}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1963.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32299, 32300, 32301, 32302, 32303]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=23, 23=25C, 51=13, 76=2, 8=11, 13=51C, 4=39C, 39=4, 11=8C, 2=76C}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1964.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32304, 32305, 32306, 32307, 32308]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=39C, 23=76, 51=2C, 76=23C, 8=13C, 13=8, 4=11, 39=25, 2=51, 11=4C}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1965.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32309, 32310, 32311, 32312, 32313]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=4, 23=51C, 51=23, 76=39, 8=2, 13=11C, 4=25C, 39=76C, 11=13, 2=8C}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1966.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32314, 32315, 32316, 32317, 32318]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=76, 23=8, 51=39C, 76=25C, 8=23C, 4=13, 13=4C, 39=51, 11=2C, 2=11}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1967.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32319, 32320, 32321, 32322, 32323]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=51C, 23=11C, 51=25, 76=4, 8=39, 13=2, 4=76C, 39=8C, 2=13C, 11=23}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Provo a creare il file incrodet/1968.txt
+set 16, 2025 7:59:09 PM dao.FcmDao getIncontri
+INFORMAZIONI: Estrazione incontri
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: ID incontri: [32324, 32325, 32326, 32327, 32328]
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Accoppiamenti: {25=8, 23=13, 51=76C, 76=51, 8=25C, 13=23C, 4=2, 39=11, 2=4C, 11=39C}
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Estrazione dati squadre
+set 16, 2025 7:59:09 PM dao.FcmDao getTabellini
+INFORMAZIONI: Estrazione tabellini
+set 16, 2025 7:59:09 PM main.CalendariIncrociati doCalcolo
+INFORMAZIONI: Scrittura totali
+set 16, 2025 7:59:09 PM main.CalendariIncrociati renderHTML
+INFORMAZIONI: Provo a salvare il file: incrodet/totale.html
+set 16, 2025 7:59:09 PM main.CalendariIncrociati renderJS
+INFORMAZIONI: Provo a salvare il file: js/incrociacalendari.js

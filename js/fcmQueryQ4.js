@@ -1,0 +1,9 @@
+var arrRisQuery=new Array()
+a=arrRisQuery
+a[1]=new RisQuery("Giocatore%Squadra%Ruolo%Cod%FMld%Aff%MVT%MVRnd%FMT%FMRnd%Tesserato In")
+a[2]=new RisQuery("NKOUNKOU&nbsp;Niels&nbsp;Patrick%Torino%D%102513%1%25%5,75%5,75%5,75%5,75%11 Outsiders A.S.D.")
+a[3]=new RisQuery("RODRIGUEZ&nbsp;Juan&nbsp;Martin%Cagliari%D%102516%1%29%5,714%5,714%5,571%5,571%")
+a[4]=new RisQuery("COULIBALY&nbsp;Woyo%Sassuolo%D%102137%1%25%5,667%5,667%5,667%5,667%")
+a[5]=new RisQuery("CECCHERINI&nbsp;Federico%Cremonese%D%100108%1%29%5,429%5,429%5,214%5,214%")
+a[6]=new RisQuery("SIEBERT&nbsp;Jamil%Lecce%D%102493%1%25%5,417%5,417%5,417%5,417%")
+a[7]=new RisQuery("NDIAYE&nbsp;Abdoulaye&nbsp;Niakhate%Parma%D%102468%1%29%5,286%5,286%5%5%")

@@ -1,0 +1,24 @@
+
+var arrMinpuntifattiComp11=new Array()
+a=arrMinpuntifattiComp11
+a[7]=new minpt("Real Colly",51)
+
+var arrMinvittComp11=new Array()
+a=arrMinvittComp11
+a[7]=new minvt("FC Longobarda,F.C. Birra Real 2023,Paris San Gonzen,Atletico Van Goof,F.C. Pitbull,Liverposs,11 Outsiders A.S.D.,Milfhunters,Real Colly",0)
+
+var arrMaxperseComp11=new Array()
+a=arrMaxperseComp11
+a[7]=new maxper("F.C. Birra Real 2023,Liverposs,Milfhunters,FC Squirt Game",2)
+
+var arrMaxserienegativaComp11=new Array()
+a=arrMaxserienegativaComp11
+a[7]=new maxserieneg("F.C. Birra Real 2023, Paris San Gonzen, F.C. Pitbull, 11 Outsiders A.S.D., Milfhunters",3)
+
+var arrMingolfattiComp11=new Array()
+a=arrMingolfattiComp11
+a[7]=new mingf("Real Colly",0)
+
+var arrMaxgolsubitiComp11=new Array()
+a=arrMaxgolsubitiComp11
+a[7]=new maxgs("F.C. Pitbull,Liverposs",5)

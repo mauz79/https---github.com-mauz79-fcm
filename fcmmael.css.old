@@ -1,0 +1,1582 @@
+.titolo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+.Giornata {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-image: url(img/sfu-vs.bmp);
+	border: 1px solid #2323B3;
+	padding-left: 5px;
+}
+.dataCaL {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #FFFFFF;
+	font-style: italic;
+	font-weight: normal;
+}
+a.white{
+font-size: xx-small;
+color:#fff;
+}
+a.white2{
+font-size: xx-small;
+color:#fff;
+}
+.Competizione {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+	color: #2323B3;
+	background-image: url(img/sfu-vc.bmp);
+	border: 1px solid #2323B3;
+	padding-left: 5px;
+}
+.IncSqP {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	text-align: center;
+	background-image: url(img/sfuP.gif);
+	background-repeat: repeat-x;
+	background-position: center;
+	color: black;
+   border-bottom: 1px solid #2323B3;
+	border-left: 1px solid #2323B3;
+}
+.IncSqD {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	text-align: center;
+	background-image: url(img/sfu-bia.bmp);
+	background-repeat: repeat-x;
+	background-position: center;
+	color: black;
+	border-bottom: 1px solid #2323B3;
+	border-left: 1px solid #2323B3;
+}
+
+.IncRisP {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+	text-align: center;
+	background-image: url(img/sfu-vcc.bmp);
+	background-repeat: repeat-x;
+	background-position: center;
+	color: black;
+	border-bottom: 1px solid #2323B3;
+	border-right: 1px solid #2323B3;
+	border-left: 1px solid #2323B3;
+}
+.IncRisD {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+	text-align: center;
+	background-image: url(img/sfu-bia.bmp);
+	background-repeat: repeat-x;
+	background-position: center;
+	color: black;
+	border-bottom: 1px solid #2323B3;
+	border-right: 1px solid #2323B3;
+	border-left: 1px solid #2323B3;
+}
+.Girone {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #2323B3;
+	font-weight: bold;
+	background-image: url(img/sfu-vc.bmp);
+	border: 1px solid #2323B3;
+	padding-left: 5px;
+}
+
+.t-xxs {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #000000;
+}
+
+.t-xxsB {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+	color: #000000;
+
+}
+
+.t-xxsBInvisible {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+	color: #000000;
+        display: none;
+}
+
+.t-xxsLFB {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+	color: #000000;
+	text-align: left; 
+
+}
+.t-xxsLF {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: normal;
+	color: #000000;
+	text-align: left; 
+
+}
+.t-xxsB1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+	color: #ffffff;
+}
+.t-xxsB12 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	color: #000000;
+}
+.t-xxsB2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-weight: bold;
+	color: #000000;
+	border: 1px solid #2323B3;
+}
+
+.t-xs {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #000000;
+}
+.t-s {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+.t-s1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #000000;
+}
+.t-m {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #000000;
+}
+.t-l {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: large;
+}
+.IntRossoBlu {
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #990000;
+	font-weight: bold;
+	border: 1px solid #0033FF;
+	text-align: center;
+	background: url(img/sfuBlu.gif) repeat-x center center;*/
+	background-image: url(img/sfu-vc.bmp);	
+	background-repeat: repeat-x;	
+	background-position: bottom;
+	color: #2323B3;	font-weight: bold;	
+	text-align: center; 
+}
+.IntRossoBlu2 {
+	border: 1px solid #2323B3;
+	background-image: url(img/sfu-vc.bmp);	
+	background-repeat: repeat-x;	
+	background-position: bottom;
+	color: #2323B3;	font-weight: bold;	
+	text-align: center; 
+}
+.IntRossoBlu3 {
+	border: 1px solid #2323B3;
+	background-image: url(img/sfu-vc.bmp);	
+	background-repeat: repeat-x;	
+	background-position: bottom;
+	color: #2323B3;	
+	font-weight: bold;	
+	text-align: center;
+	font-size: 12px;
+}
+.IntRossoBlu4 {
+	border: 1px solid #2323B3;
+	background-image: url(img/sfu-vs.bmp);	
+	background-repeat: repeat-x;	
+	background-position: bottom;
+	color: #ffffff;	font-weight: bold;	
+	text-align: center; 
+}
+.testo-blu-bold-cx{color:#2323B3; font-weight:bold; text-align:center;}
+.testo-blu-cx{color:black; text-align:center;}
+.testo-bold{color:#2323B3; font-weight:bold;}
+
+.testo-blu-bold-cx{color:black; font-weight:bold; text-align:center;}
+.testo-sx{color:#2323B3;text-align:left;}
+.testo-cx{color:black;text-align:center;}
+.testo-dx{color:#2323B3;text-align:right;}
+
+
+.testo-8{
+	color:#2323B3; 
+	font-family:Arial,sans-serif; 
+	font-size:8pt;
+}
+.testo-doc{
+	color:#2323B3; 
+	font-family:Arial,sans-serif; 
+	font-size:8pt;
+	text-align: center;
+	border: none;
+}
+.Celladoc {
+	border: none;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-image: url(img/sfu-vs.bmp);
+}
+
+.riga-doc {
+	color: #000000;	
+	font-weight: bold;	
+	text-align: center; 
+	/*border: none; 1px solid #2323B3;*/
+}
+.riga-pari{
+	background-color: White;
+	border: none; /*1px solid #2323B3;*/
+
+	}
+.riga-dispari{
+	background-color: #ccffff;
+	border: none; /*1px solid #2323B3;*/
+	}
+.riga-blu-cx {
+	border: 1px solid #2323B3;
+	background-image: url(img/sfu-vs.bmp);	
+	background-repeat: repeat-x;	
+	background-position: bottom;
+	color: #ffffff;	font-weight: bold;	
+	text-align: center; 
+}
+
+.riga-orange-cx {
+	border: 1px solid #2323B3;
+	background-image: url(img/sfu-vc.bmp);	
+	background-repeat: repeat-x;	
+	background-position: bottom;
+	color: #2323B3;	font-weight: bold;	
+	text-align: center; 
+}
+.t-xxsV {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #336600;
+
+}
+.t-xxsVLF {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #336600;
+	text-align: left; 
+	font-weight: normal;
+
+}
+.t-xxsR {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #CC0000;
+}
+.t-xxsRLF {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #CC0000;
+	text-align: left; 
+	font-weight: normal;
+
+}
+.t-xxsVB {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #336600;
+	font-weight: bold;
+
+}
+.t-xxsVLFB {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #336600;
+	font-weight: bold;
+	text-align: left; 
+
+}
+.t-xxsRB {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #CC0000;
+	font-weight: bold;
+
+}
+.t-xxsRLFB {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #CC0000;
+	font-weight: bold;
+	text-align: left; 
+
+}
+.t-xxsG {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #999900;
+
+}
+.t-xxsGLF {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #999900;
+	text-align: left; 
+	font-weight: normal;
+
+}
+.t-xxsGB {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #999900;
+	font-weight: bold;
+
+}
+.t-xxsGLFB {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #999900;
+	font-weight: bold;
+	text-align: left; 
+
+}
+.ClassP {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	border: 1px solid #2323B3;
+	color: #000000;
+	background-image: url(img/sfu-vcc.bmp);
+	background-repeat: repeat-x;
+	background-position: center;
+}
+.ClassD {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	border: 1px solid #2323B3;
+	background-image: url(img/sfu-vcc.bmp);
+	color: #000000;
+	background-repeat: repeat-x;
+	background-position: center;
+}
+
+.ClassEl {
+	border: 1px solid #2323B3;
+	border-color: #2323B3;	
+	border-collapse: collapse;	
+	font-family: Tahoma, Verdana, Arial;  
+	font-size: 8pt;
+}
+.ClassBianco {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	background-color: #FFFFFF;
+	border: 1px solid #0033FF;
+}
+
+/*table {
+	border-collapse: collapse;
+}*/
+
+.Cella {
+	border: 1px solid #2323B3;
+}
+
+.Cella1 {
+	border: 1px solid #2323B3;
+	background-image: url(img/sfu-vcc.bmp);
+}
+.Cella3 {
+	border: 1px solid #2323B3;
+	background-image: url(img/sfu-vs.bmp);
+	color: #ffffff;
+}
+.Cella2 {
+	border: 1px solid #2323B3;
+	background-image: url(img/sfu-bia.bmp);
+}
+.Cella2-dispari {
+	border: 0px solid #2323B3;
+	background-image: url(img/sfu-vcc.bmp);
+}
+.Cella2-pari {
+	border: 0px solid #2323B3;
+	background-image: url(img/sfu-bia.bmp);
+}
+.t-xxsBluB {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #3300FF;
+	font-weight: bold;
+}
+.t-xxsBlu {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #3300FF;
+	font-weight: normal;
+}
+.CellaCentro {
+	border: 1px solid #2323B3;
+	text-align: center;
+
+}
+.CellaCentro1 {
+	border: 1px solid #2323B3;
+	text-align: center;
+   background-image: url(img/sfu-vcc.bmp);
+}
+.CellaCentro2 {
+	border: 1px solid #2323B3;
+	text-align: center;
+background-image: url(img/sfu-bia.bmp);
+}
+.RosaP {
+	background-image: url(img/sfu-vcc.bmp);	
+	background-repeat: repeat-x;	
+	background-position: bottom;
+	color: #000000;	
+
+}
+.RosaD {
+	background-color: White;
+	background-repeat: repeat-x;	
+	background-position: bottom;
+	color: #000000;	
+}
+
+.IntBluGiallo {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #0000FF;
+	font-weight: bold;
+	border: 1px solid #0033FF;
+	text-align: center;
+	background: url(img/sfuGiallo.gif) repeat-x center center;
+}
+.IntRossoBluDx {
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #2323B3;
+	font-weight: bold;
+	border: 1px solid #2323B3;
+	text-align: right;
+	background: url(img/sfu-vc.bmp) repeat-x center center;
+	
+}
+.GiornataForm {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	color: #000099;
+	font-weight: bold;
+}
+.CompetizioneForm {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+	color: #000000;
+}
+.IntLayer {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 11px;
+ line-height: 14px;
+ padding-top: 3px;
+ padding-left: 5px;
+ padding-right: 5px;
+ padding-bottom: 3px;
+ background-image: url(img/sfu-bia.bmp);
+ border: 1px solid #2323B3;
+ font-weight: bold;
+}
+ 
+.IntLayerORIGINAL {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #0000FF;
+	font-weight: bold;
+	border: 1px solid #0033FF;
+	text-align: left;
+	background: url(img/sfuGiallo.gif) repeat-x center center;
+}
+.FormP {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	border: 0px solid #ffffff;
+	background-image: url(img/sfu-vcc.bmp);
+	background-repeat: repeat;
+	background-position: center;
+	text-align: center;
+}
+.FormD {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	border: 0px solid #ffffff;
+	background-image: url(img/sfu-bia.bmp);
+	background-repeat: repeat;
+	background-position: center;
+	text-align: center;
+}
+.FormNome {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-style: italic;
+	font-weight: bold;
+	border: 1px #0033FF;
+}
+
+.RisP {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	background-color: #cccccc;
+	border: 1px solid #0033FF;
+	background-image: url(img/sfuP.gif);
+	background-repeat: repeat;
+	background-position: center;
+	text-align: left;
+}
+
+.RisD {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	background-color: #FFFFFF;
+	border: 1px solid #0033FF;
+	background-repeat: repeat;
+	background-position: center;
+	text-align: left;
+}
+.RisNome {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-style: italic;
+	font-weight: bold;
+	background-position: center;
+	border: 1px #0033FF;
+}
+.CellaImg {
+	text-align: center;
+	vertical-align: middle;
+	background: center center;
+}
+.Bianco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background: url(img/sfu-bia.bmp);
+	border-top: 0px solid #0033FF;
+	border-right: 0px none #0033FF;
+	border-bottom: 0px solid #0033FF;
+	border-left: 1px solid #2323B3;
+	font-size: xx-small;
+}
+.Bianco2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background: url(img/sfu-vc.bmp);
+	border-left: 1px solid #2323B3;
+	font-size: smaller;
+}
+.FormPCentro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	border-right: 1px solid #2323B3;
+	border-left: 0px solid #2323B3;
+	background-image: url(img/sfu-vcc.bmp);
+	background-repeat: repeat;
+	background-position: center;
+	text-align: center;
+}
+.FormDCentro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+   border-right: 1px solid #2323B3;
+	border-left: 0px solid #2323B3;
+	background-image: url(img/sfu-bia.bmp);
+	background-repeat: repeat;
+	background-position: center;
+	text-align: center;
+}
+
+.RisPCentro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	background-color: #cccccc;
+	border: 1px solid #0033FF;
+	background-image: url(img/sfuP2.gif);
+	background-repeat: repeat;
+	background-position: center;
+	text-align: center;
+}
+
+.RisDCentro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	background-color: #eeeeee;
+	border: 1px solid #0033FF;
+	background-image: url(img/sfuD2.gif);
+	background-repeat: repeat;
+	background-position: center;
+	text-align: center;
+}
+.CellaDestra {
+
+	border: 1px solid #0033FF;
+	text-align: right;
+}
+.t-xsB {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-weight: bold;
+	color: #2323B3;
+	background-image: url(img/sfu-vc.bmp);
+	text-align: center;
+	border-bottom: 1px solid #2323B3;
+	border-top: 1px solid #2323B3;
+}
+.t-xsB1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12;
+	font-weight: bold;
+	color: #2323B3;
+	background-image: url(img/sfu-vc.bmp);
+	text-align: center;
+	border-bottom: 1px solid #2323B3;
+	border-top: 1px solid #2323B3;
+}
+.CellaCentroRosso {
+	border: 1px solid #0033FF;
+	text-align: center;
+	background-color:#FF0000
+
+}
+.t-xsWB {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-weight: bold;
+	color: #2323B3;
+}
+.t-xsWB1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: larger;
+	font-weight: bold;
+	color: #ffffff;
+}
+.t-tab {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0066ff;
+}
+.t-tab1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #2323B3;
+	line-height:100%;
+	padding-left: 5;
+	padding-right: 5;
+	padding-top: 5;
+	padding-bottom: 5;
+	text-align: center;
+	
+}
+.t-tab2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #0066ff;
+}
+.CellaCentroVerde {
+
+	border: 1px solid #0033FF;
+	text-align: center;
+	background-color:#00CC00
+}
+.CellaNoBordo {
+	border: none;
+}
+.CellaNoBordoDx1 {
+	border-top: 1px solid #2323B3;
+	text-align: right;
+	color: #2323B3;
+	background-image: url(img/sfu-vc.bmp);
+	font-weight: bold;
+}
+.CellaNoBordoDx1b {
+	border-top: 1px solid #2323B3;
+	text-align: center;
+	border-left: 1px solid #2323B3;
+	font-weight: bold;
+	background-image: url(img/sfu-vc.bmp);
+	color: #2323B3;
+}
+.CellaNoBordoDx2 {
+	border-top: 1px solid #2323B3;
+	text-align: right;
+	color: #2323B3;
+	background-color: #fffffff;
+	background-image: url(img/sfu-bia.bmp);
+	font-weight: bold;
+}
+.CellaNoBordoDx2b {
+	border-top: 1px solid #2323B3;
+	text-align: center;
+	border-left: 1px solid #2323B3;
+	font-weight: bold;
+	background-color: #fffffff;
+	background-image: url(img/sfu-bia.bmp);
+	color: #2323B3;
+}
+.CellaNoBordoDx2a {
+	border-top: 1px solid #2323B3;
+	text-align: right;
+	color: #2323B3;
+	background-image: url(img/sfu-bia.bmp);
+	font-weight: bold;
+}
+.CellaNoBordoDx2ab {
+	border-top: 1px solid #2323B3;
+	text-align: center;
+	border-left: 1px solid #2323B3;
+	font-weight: bold;
+	background-image: url(img/sfu-bia.bmp);
+	color: #2323B3;
+}
+.CellaNoBordoDx3 {
+	border-top: 1px solid #2323B3;
+	text-align: right;
+	color: #2323B3;
+	background-color: #33FFFF;
+	font-weight: bold;
+}
+.CellaNoBordoDx3b {
+	border-top: 1px solid #2323B3;
+	text-align: center;
+	border-left: 1px solid #2323B3;
+	font-weight: bold;
+	background-color: #33FFFF;
+	/*background-image: url(img/sfu-vs.bmp);*/
+	color: #2323B3;
+}
+.CellaNoBordoDx4 {
+	border-top: 1px solid #2323B3;
+	border-bottom: 1px solid #2323B3;
+	text-align: right;
+	color: #ffffff;
+	background-image: url(img/sfu-vs.bmp);
+	font: bold larger;
+}
+.CellaNoBordoDx4b {
+	border-top: 1px solid #2323B3;
+	color: #2323B3;
+	text-align: center;
+	border-left: 1px solid #2323B3;
+	border-bottom: 1px solid #2323B3;
+	font-weight: bold;
+	background-image: url(img/sfu-vs.bmp);
+	
+}
+.t-xxsI {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-style: italic;
+}
+.RvP {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	background-color: #cccccc;
+	border: 1px solid #2323B3;
+	background-image: url(img/sfu-vcc.bmp);
+	background-repeat: repeat;
+	background-position: center;
+	text-align: left;
+}
+.RvD {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	background-color: #fffffff;
+	border: 1px solid #2323B3;
+	background-image: url(img/sfu-bia.bmp);
+	background-repeat: repeat;
+	background-position: center;
+	text-align: left;
+}
+.Rv1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	background-color: #fffffff;
+	border: 1px solid #2323B3;
+	background-image: url(img/sfu-vc.bmp);
+	background-repeat: repeat;
+	background-position: center;
+	text-align: left;
+}
+.Rv2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	background-color: #fffffff;
+	border: 1px solid #2323B3;
+	background-image: url(img/sfu-vs.bmp);
+	background-repeat: repeat;
+	background-position: center;
+	text-align: left;
+}
+.CellaRvCiano {
+	border: 1px solid #2323B3;
+	background: #0359DA;
+	color: #FFFFFF;
+}
+.CellaRvRosso {
+	border: 1px solid #2323B3;
+	background: #DD0000;
+	color: #FFFFFF;
+}
+.CellaRvVerde {
+	border: 1px solid #2323B3;
+	background: #00A800;
+	color: #FFFFFF;
+}
+.CellaRvGiallo {
+	border: 1px solid #2323B3;
+	background: #B5B500;
+	color: #FFFFFF;
+}
+.tmodI {
+	font-style: italic;
+}
+.tmodB {
+	font-weight: bold;
+}
+.tmodBI {
+	font-style: italic;
+	font-weight: bold;
+}
+.tmodU {
+	text-decoration: underline;
+}
+.tmodIU {
+	font-style: italic;
+	text-decoration: underline;
+}
+.tmodBU {
+	font-weight: bold;
+	text-decoration: underline;
+}
+.tmodBIU {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.CellaRvCianoCentro {
+	border: 1px solid #0033FF;
+	background: #0359DA;
+	color: #FFFFFF;
+	text-align: center;
+}
+.CellaRvRossoCentro {
+
+	border: 1px solid #0033FF;
+	background: #DD0000;
+	color: #FFFFFF;
+	text-align: center;
+}
+.CellaRvVerdeCentro {
+
+	border: 1px solid #2323B3;
+	background: #00A800;
+	color: #FFFFFF;
+	text-align: center;
+}
+.CellaRvGialloCentro {
+
+	border: 1px solid #2323B3;
+	background: #B5B500;
+	color: #FFFFFF;
+	text-align: center;
+}
+.RvPCentro {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	background-color: #cccccc;
+	border: 1px solid #2323B3;
+	background-image: url(img/sfu-vcc.bmp);
+	background-repeat: repeat;
+	background-position: center;
+	text-align: center;
+}
+.RvDCentro {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	background-color: #fffffff;
+	border: 1px solid #2323B3;
+	background-image: url(img/sfu-bia.bmp);
+	background-repeat: repeat;
+	background-position: center;
+	text-align: center;
+}
+body {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 12px;
+ font-weight: normal;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-right: 3;
+ margin-left: 3;
+}
+
+h1 {
+ font-family: Times New Roman, serif;
+ font-size: 26px;
+ font-weight: normal;
+ color: #33ffff;
+ background-color: transparent;
+ padding: 0px;
+ margin: 0px;
+ }
+
+h2 {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 14px;
+ font-weight: bold;
+ line-height: 14px;
+ color: #2323B3;
+ background-color: transparent;
+ }
+ 
+ h2.titletext {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 20px;
+ font-weight: normal;
+ line-height: 20px;
+ border-bottom: 1px solid #2323b3;
+ color: #2323B3;
+ background-color: transparent;
+ }
+ 
+ h4.titletext {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 16px;
+ font-weight: bold;
+ line-height: 20px;
+ padding-left: 0px;
+ border-bottom: 1px solid #769176;
+ color: #3333ff;
+ background-color: transparent;
+ }
+
+ h3.titletext {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 16px;
+ font-weight: bold;
+ line-height: 16px;
+ border-bottom: 1px solid #2323B3;
+ color: #2323B3;
+ background-color: transparent;
+ }
+ 
+ 
+ 
+ 
+ h2.titolopers {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 30px;
+ font-weight: normal;
+ line-height: 30px;
+ border-bottom: 1px solid #2323B3;
+ color: #000000;
+ background-color: transparent;
+ }
+
+p {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 12px;
+ font-weight: normal;
+ line-height: 18px;
+ color: #000000;
+ background-color: transparent;
+ }
+
+a {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 12px;
+ font-weight: normal;
+ text-decoration: underline;
+ color: #2323B3;
+ background-color: transparent;
+ }
+
+a:visited {
+ text-decoration: none;
+
+ background-color: transparent;
+ }
+a:hover {
+ text-decoration: underline;
+ }
+ 
+a.navlink {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 11px;
+ font-weight: NORMAL;
+ text-decoration: none;
+ color: #CCffff;
+ background-color: transparent;
+ }
+
+a.navlink:visited {
+ text-decoration: none;
+ color: #ccffff;
+ background-color: transparent;
+ }
+
+a.newslink {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 10px;
+ font-weight: bold;
+ line-height: 10px;
+ text-decoration: none;
+ color: #3333ff;
+ background-color: transparent;
+ }
+
+a.newslink:visited {
+ text-decoration: none;
+ color: #900020;
+ color: #3333ff;
+ background-color: transparent;
+ }
+
+a.newslink:hover {
+ text-decoration: underline;
+ }
+
+li {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 12px;
+ font-weight: normal;
+ line-height: 18px;
+ padding-bottom: 7px;
+ color: #000000;
+ background-color: transparent;
+ }
+
+.navcell {
+ padding: 3px 7px 3px 7px;
+ }
+
+.newsheader {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 10px;
+ font-weight: normal;
+ line-height: 10px;
+ padding-left: 5px;
+ color: #33ffff;
+ background-color: #000099;
+ }
+
+.newscell {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 11px;
+ font-weight: normal;
+ line-height: 11px;
+ padding-top: 7px;
+ padding-left: 5px;
+ padding-right: 5px;
+ padding-bottom: 9px;
+ color: #3333ff;
+ background-color: #FFFF99;
+ }
+
+.newscel2 {
+ font-family: Verdana;
+ font-size: 11px;
+ font-weight: normal;
+ line-height: 14px;
+ text-decoration: none;
+ padding-top: 7px;
+ padding-left: 5px;
+ padding-right: 5px;
+ padding-bottom: 9px;
+ color: #2323B3;
+}
+
+.newscel3 {
+ font-family: Verdana;
+ font-size: 11px;
+ font-weight: normal;
+ line-height: 14px;
+ padding-top: 3px;
+ padding-left: 5px;
+ padding-right: 5px;
+ padding-bottom: 3px;
+ color: #2323B3;
+}
+ 
+ .navinput {
+  vertical-align: middle;
+  width: 120px;
+  color: #3333ff;
+  background-color: #33ffff;
+ }
+
+ .navbutton {
+  position: relative;
+  left: 3px;
+  width: 30px;
+  background-color: #3333ff;
+  color: #33ffff;
+  font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  vertical-align: middle;
+ }
+
+.update {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 10px;
+ font-weight: normal;
+ line-height: 14px;
+ color: #33ffff;
+ background-color: transparent;
+ }
+ 
+.edition {
+ font-family: Verdana;
+ font-size: 11px;
+ font-weight: bold;
+ line-height: 35px;
+ /*padding-top: 50px;*/
+ padding-right: 90px;
+ color: #ffffff;
+ background-color: transparent;
+ }
+
+.copyright {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 10px;
+ font-weight: normal;
+ line-height: 10px;
+ color: #999999;
+ background-color: transparent;
+ }
+.Stile1 {font-family: Verdana, Lucida, helvetica, arial, sans-serif}
+.Stile2 {color: #33ffff}
+.CellaRvCianoGrigio {
+
+	border: 1px solid #0033FF;
+	background: #0359DA;
+	color: #CCCCCC;
+}
+.CellaRvRossoGrigio {
+
+	border: 1px solid #0033FF;
+	background: #DD0000;
+	color: #CCCCCC;
+}
+.CellaRvVerdeGrigio {
+
+	border: 1px solid #2323B3;
+	background: #00A800;
+	color: #CCCCCC;
+}
+.CellaRvGialloGrigio {
+
+	border: 1px solid #2323B3;
+	background: #B5B500;
+	color: #CCCCCC;
+}
+.RvPGrigio {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	background-color: #cccccc;
+	border: 1px solid #2323B3;
+	background-image: url(img/sfu-vcc.bmp);
+	background-repeat: repeat;
+	background-position: center;
+	text-align: left;
+	color: #666666;
+}
+.RvDGrigio {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	background-color: #eeeeee;
+	border: 1px solid #2323B3;
+	background-image: url(img/sfu-bia.bmp);
+	background-repeat: repeat;
+	background-position: center;
+	text-align: left;
+	color: #666666;
+}
+table.mercato{
+  width: 50%;
+  WIDTH=95%;
+  border: 1px solid; 
+  border-color: #2323B3;
+}
+td.merca-test {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+}
+td.merca-test2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	width: auto;
+	text-align: center;
+}
+td.merca-data {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+	padding-right: 15px;
+}
+td.merca-sqa {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: auto;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+}
+td.merca-cred {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: auto;
+	font-weight: bold;
+	text-align: right;
+	color: #ffffff;
+	padding-right: 10px;
+}
+td.cred {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: auto;
+	color: #000000;
+	font-weight: normal;
+	text-align: right;
+	padding-right: 10px;
+	
+}
+td.cred2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: auto;
+	color: #000000;
+	font-weight: normal;
+	text-align: center;
+}
+td.sqa {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: auto;
+	color: #000000;
+	font-weight: normal;
+	text-align: center;
+	padding-left: 5px;
+}
+td.desc {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 12px;
+ font-weight: normal;
+ line-height: 18px;
+ text-align: center;
+ color: #000000;
+}
+td.desc2 {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 12px;
+ font-weight: normal;
+ line-height: 18px;
+ text-align: center;
+ color: #000000;
+ width: auto;
+ 
+}
+td.data {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: auto;
+	color: #2323B3;
+	font-weight: normal;
+	text-align: center;
+	padding-right: 10px;
+	vertical-align: baseline;
+	}
+tr.testa {
+  background-color: #2323B3;
+  line-height: 125%;
+  
+}
+/*COPYRIGHT*/
+.cpr {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 10px;
+ font-weight: normal;
+ line-height: 14px;
+ color: #999999;
+ background-color: transparent;
+}
+.cpr2 {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 10px;
+ font-weight: bold;
+ line-height: 14px;
+ color: #999999;
+ background-color: transparent;
+}
+
+table.doc{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	border: none;
+}
+
+
+/* TABELLE INDEX.HTM */
+
+table.principale {
+	border: 3px solid #2323B3;
+	background-color: #2323B3; 
+	width: 980px;
+}
+
+
+table.menu {
+	border: 1px solid #2323B3;
+	width: 166px;
+}
+
+table.mini {
+	border: none;
+}
+
+
+/* MINI CLASSIFICHE */
+.rigaD {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	text-align: center;
+	background-color: #ccffff;
+	color: black;
+	border-bottom: 1px solid #2323B3;
+}
+.rigaP {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	text-align: center;
+	background
+	color: black;
+	border-bottom: 1px solid #2323B3;
+	background-color: white;
+}
+.rigaD2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	text-align: left;
+	background-color: #ccffff;
+	color: black;
+	width: 98%;
+	border-bottom: 1px solid #2323B3;
+}
+.rigaP2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	text-align: left;
+	background-color: White;
+	color: black;
+	width: 98%;
+	border-bottom: 1px solid #2323B3;
+}
+.rigaVSp {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	color: #2323B3;
+	font-size: 10;
+	background-color: White;
+	width: 3px;
+	border-bottom: 1px solid #2323B3;
+}
+.rigaVSd {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	color: #2323B3;
+	font-size: 10;
+	background-color: #ccffff;
+	width: 3px;
+	border-bottom: 1px solid #2323B3;
+}
+.rigaDgol {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	text-align: center;
+	font-weight: bold;
+	background-color: #ccffff;
+	color: black;
+	border-bottom: 1px solid #2323B3;
+}
+.rigaPgol {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	text-align: center;
+	font-weight: bold;
+	background-color: White;
+	color: black;
+	border-bottom: 1px solid #2323B3;
+}
+.rigaTit {
+	/*VISIBILITY: hidden;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-weight: bold;
+	background: url(img/sfu-vc.bmp);
+	background-position: center;
+	color: #2323B3;
+	font-size: 11;
+}
+.rigaDat {
+	/*VISIBILITY: hidden;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background: url(img/sfu-vc.bmp);
+	background-position: center;
+	color: #2323B3;
+	font-size: 10;
+	font-style: italic;
+	font-weight: normal;
+}
+
+
+.vuota {
+	border-bottom: 1px solid #2323B3;
+	font-size: 1px;
+}
+.rigaDu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	text-align: center;
+	font-weight: bold;
+	background-color: #ccffff;
+	color: black;
+	border-bottom: 1px solid #2323B3;
+}
+.rigaPu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	text-align: center;
+	font-weight: bold;
+	background-color: White;
+	color: black;
+	border-bottom: 1px solid #2323B3;
+}
+.rigaPTtot {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	text-align: left;
+	font-weight: bold;
+	background-color: White;
+	color: black;
+	border-bottom: 1px solid #2323B3;
+}
+.rigaDTtot {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	text-align: left;
+	font-weight: bold;
+	background-color: #ccffff;
+	color: black;
+	border-bottom: 1px solid #2323B3;
+}
+.rigaDuGP {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	text-align: left;
+	font-weight: bold;
+	background-color: #ccffff;
+	color: black;
+	border-bottom: 1px solid #2323B3;
+}
+.rigaPuGP {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	text-align: left;
+	font-weight: bold;
+	background-color: White;
+	color: black;
+	border-bottom: 1px solid #2323B3;
+}
+.rigaD3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	text-align: right;
+	background-color: #ccffff;
+	color: black;
+	border-bottom: 1px solid #2323B3;
+}
+.rigaP3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	text-align: right;
+	background-color: White;
+	color: black;
+	border-bottom: 1px solid #2323B3;
+}
+/* CONTENITORE MINICLASSIFICHE */
+
+.tooltip {
+border: 2px double #2323B3;
+background-image: url(img/sfu-vcc.bmp);
+PADDING: 8px;
+font-family: Verdana;
+FONT-SIZE: 8pt;
+VISIBILITY: hidden;
+POSITION: absolute;
+/*layer-background-color: #D1C9EB;*/
+text-align: center;
+}
+
+ h2.mini {
+ font-family: Verdana, Lucida, helvetica, arial, sans-serif;
+ font-size: 14px;
+ font-weight: bold;
+ border-bottom: 1px solid #2323B3;
+ color: #000000;
+ }

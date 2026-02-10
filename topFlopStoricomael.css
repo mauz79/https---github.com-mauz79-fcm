@@ -1,0 +1,102 @@
+/*
+blu #003399;
+azzurro #A1BEE5
+grigio #EFEFEF
+
+#DCDCDC gainsboro
+#F5F5F5 whitesmoke
+#F5F5DC beige
+#A9A9A9 darkgray
+#FFA500 orange
+#696969 dimgray
+*/
+
+body, TD, TH, .btn, INPUT { font-family: Verdana,Sans-Serif; font-size: 12px;} 
+body {margin-bottom:0px; margin-top:0px;}
+
+body{ 
+	background:#FFFFFF;
+	}
+
+INPUT {font-size: 11px;}	
+FORM {margin-bottom:0px; margin-top:0px;}
+/*#0066FF*/
+a{color:#333399 ; text-decoration: none}
+a:hover{color: #FFA500;}
+a:visited{color:#333399;}	
+
+#FOOTER {
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 5px;
+	font-size: 11px;
+	text-align: center; 
+	border:0px solid black;       	
+	} 
+	
+.ucase{ text-transform: uppercase;}	
+/* -- BEGIN TBLCARRIERA -- */
+
+.TBLCARRIERA  {border-left: #A9A9A9 1px solid; border-right: #A9A9A9 1px solid; border-top: #A9A9A9 1px solid;}
+.TBLCARRIERA TD, .TBLCARRIERA TH  {
+	border-bottom: #A9A9A9 1px solid; 
+	padding-top: 4px; 
+	padding-bottom: 4px;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	FONT-SIZE: 10px;
+}
+.TBLCARRIERA TH  { background-image: url(img/sfu-vs.bmp);
+		   color: #FFFFFF; }
+.TBLCARRIERA .onOver{ background-image: url(img/sfu-vc.bmp) }
+
+.TBLCARRIERA .onOut{ background-color: ;}
+.TBLCARRIERA .onOutPari{ background-color: #ccffff;}
+
+.TBLCARRIERA A{ text-decoration: none;}
+
+.TBLCARRIERA .gray { background-color: #F5F5DC; }
+.TBLCARRIERA .borderDX { border-right: 1px solid #A9A9A9;}
+.TBLCARRIERA .borderSX { border-left: 1px solid #A9A9A9;}
+
+
+/* -- END TBLCARRIERA -- */
+
+
+#bodyLeft {
+	width: 660px;
+	border-right: 10px solid #FFFFFF;
+}
+
+#bodyRight {
+	width: 300px;
+}
+
+#bodyContent {
+	width: 960px;
+}
+
+#NomeGiocatore {
+        FONT-SIZE: 12px;
+        /*color: #2323B3;*/
+}
+
+#CostanteFCarriera {
+        FONT-SIZE: 11px;
+	FONT-WEIGHT: bold;
+}
+
+#RuoliGrandi {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+        FONT-SIZE: 14px;
+	FONT-WEIGHT: bold;
+}
+
+#RuoliPiccoli {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+        FONT-SIZE: 10px;
+}
+
+/* ------------------------------------ */
+
+

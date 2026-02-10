@@ -1,0 +1,61 @@
+TOTOFANTACALCIO ver. 1.0
+
+<---------COME FUNZIONA--------->
+
+
+Partiamo dall'ovvio: i presidenti dei club di ciascuna Lega hanno la possibilità di giocare una schedina tipo Totocalcio 
+sulle partite di Lega. 
+Quando una schedina viene giocata essa viene automaticamente memorizzata e visualizzata nella sezione "Schedine giocate 
+questa settimana" e il debito nei confronti dell'amministratore del Totofantacalcio viene automaticamente incrementato, 
+memorizzato e visualizzato nella sezione "Borsino Scommettitori". Viene anche inviata una mail all'amministratore con la 
+giocata effettuata. Gli scommettitori hanno anche la possibilità di modificare la schedina prima dell'inizio della Giornata 
+fantacalcistica semplicemente ricompilandola, stando tranquilli, poichè il debito nn verrà incrementato. Il debito nn viene 
+incrementato nel caso in cui sia già presente (nel Database) una schedina giocata. 
+
+L'unica cosa che l'amministratore deve e può fare, tramite sezione "Amministratore Totofantacalcio", è: 
+- controllare che le giocate siano state fatte entro l'inizio della giornata Fantacalcistica (tramite mail ricevute) 
+- controllare, una volta conclusasi la giornata fantacalcistica e aggiornato il sito, se tra le schedine giocate ve ne è una 
+vincente premendo sul tasto "calcola vincitore" 
+- cancellare le giocate una volta controllata la presenza di vincitori o meno (o per qualsiasi altro motivo) tramite tasto 
+"cancella giocate". Gli amministratori devono cancellare tutte le giocate prima che per gli scommettitori sia possibile 
+farne altre, poichè, come detto in precedenza, il debito nn verrebbe incrementato nel caso in cui sia presente una schedina 
+già giocata dal medesimo scommettitore.
+
+---COSA E' NECESSARIO PERCHè FUNZIONI?---
+Bisogna possedere nel proprio dominio la possibilità di utilizzare i DataBase, altrimenti nisba.
+
+---COSA NON E' ANCORA SUPPORTATO?---
+Per il momento le divisioni nn sono supportate ma mi metterò al lavoro anche per quelle.
+ 
+
+<---------INSTALLAZIONE---------->
+
+L'installazione dovrebbe rivelarsi semplice:
+ 
+- incollare tutti i file e la cartella "Toto" nella cartella principale della skin utilizzata per generare il sito 
+(nn mettete i file e la cartella da altre parti nn ne garantisco il funzionamento).
+
+- aprire il file "config.php" e modificare tutte le variabili (è possibile modificare anche la veste grafica da questo file
+ma fatelo come ultima cosa)
+
+- aprire il file "info.txt" nella cartella "Toto", inserire nell'ordine in cui li trovate nel "mercato libero" di FCM i nomi e le password di 
+tutti i club di Lega attenendosi a queste modalità: un nome e pwd per riga, lasciare il segno "-" nelle posizioni in cui si 
+trova (cioè: tra il nome della squadra e la password e dopo la password), non devono essere presenti spazi. 
+Esempio: nomeSquadra1-pwdsquadra1-
+ 
+- generare il sito e uploadarlo sul proprio dominio.
+
+- aprire il file "install.php" dal sito per creare la tabella del DataBase tramite l'url del file. Esempio: 
+nella barra degli indirizzi scrivere l'indiririzzo sul sito di Lega del file "install.php" e premere invio. Nel mio caso è
+"http://www.magicleague.thelastdragon.altervista.org/MagicLeague/install.php".
+
+- cancellate il file "install.php"
+
+
+
+A questo punto tutto dovrebbe funzionare correttamente, se vi sono problemi fatemi sapere. Per delucidazioni o aiuto 
+scrivetemi nel Topic sul Forum in cui avete trovato il Totofantacalcio.
+
+Buon Divertimento,
+
+The Saint

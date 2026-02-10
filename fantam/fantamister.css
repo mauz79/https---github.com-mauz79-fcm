@@ -1,0 +1,364 @@
+/*stili per TUTTI I FILE*/
+html, body         {margin: 0; padding: 0;}
+
+/*stili per il CLASSIFICA MARCATORI (File: cannonieri.htm) */
+div#cannonieri   {font-family: Trebuchet MS; font-size: 9px; width: 550px; margin: 0 auto; margin-bottom: 0; border: 1px solid #FF0000;}
+table.cannonieri {font-family: Trebuchet MS; font-size: 9px; width: 100%;}
+tr.cannonieri    {font-family: Trebuchet MS; font-size: 10px;}
+.canTITOLO       {font-family: Trebuchet MS; font-size: 12px; color: #FFFFFF; font-weight: bold;   text-align: left;   vertical-align: middle; background-color: #003366; width: 220px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+.canGOLp         {
+	font-family: Trebuchet MS;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #66ccff;
+	width: 15px;
+	height: 15px;
+	margin-bottom: 0;
+	border-bottom: 1px solid #FF0000;
+}
+.canGOLd         {
+	font-family: Trebuchet MS;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+	width: 15px;
+	height: 15px;
+	margin-bottom: 0;
+	border-bottom: 1px solid #FF0000;
+}
+.canNOMEp        {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: left;   vertical-align: middle; background-color: #66ccff; width: 205px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+.canNOMEd        {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: left;   vertical-align: middle; background-color: #FFFFFF; width: 205px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+
+/*stili per il TOP&FLOP (File: top11.htm - top11s.htm - flop11.htm - flop11s.htm) */
+div#topflop   {font-family: Trebuchet MS; font-size: 9px; width: 550px; margin: 0 auto; margin-bottom: 0; border: 1px solid #FF0000;}
+table.topflop {font-family: Trebuchet MS; font-size: 9px; width: 100%;}
+tr.topflop    {font-family: Trebuchet MS; font-size: 10px;}
+.tpTITOLO     {font-family: Trebuchet MS; font-size: 12px; color: #FFFFFF; font-weight: bold;   text-align: left;   vertical-align: middle; background-color: #003366; width: 300px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+.tpRUOLOp     {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: bold;   text-align: center; vertical-align: middle; background-color: #66ccff; width:  20px; height: 15px; margin-bottom: 0; border-top: 1px solid #FF0000; border-bottom: 1px solid #ff0000;}
+.tpRUOLOd     {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: bold;   text-align: center; vertical-align: middle; background-color: #FFFFFF; width:  20px; height: 15px; margin-bottom: 0; border: 0px solid #FF0000;}
+.tpNOMEp      {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: left;   vertical-align: middle; background-color: #66ccff; width: 280px; height: 15px; margin-bottom: 0; border-top: 1px solid #FF0000; border-bottom: 1px solid #ff0000;}
+.tpNOMEd      {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: left;   vertical-align: middle; background-color: #FFFFFF; width: 280px; height: 15px; margin-bottom: 0; border: 0px solid #FF0000;}
+
+/*stili per il MIGLIORE IN CAMPO (File: uomopartita.htm) */
+div#mom    {font-family: Trebuchet MS; font-size: 9px; width: 550px; margin: 0 auto; margin-bottom: 0; border: 1px solid #FF0000;}
+table.mom  {font-family: Trebuchet MS; font-size: 9px; width: 100%;}
+tr.mom     {font-family: Trebuchet MS; font-size: 10px;}
+.momTITOLO {font-family: Trebuchet MS; font-size: 12px; color: #FFFFFF; font-weight: bold;   text-align: left;   vertical-align: middle; background-color: #003366; width: 300px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+.momNUMp   {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: center; vertical-align: middle; background-color: #66ccff; width:  20px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+.momNUMd   {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: center; vertical-align: middle; background-color: #FFFFFF; width:  20px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+.momNOMEp  {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: left;   vertical-align: middle; background-color: #66ccff; width: 280px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+.momNOMEd  {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: left;   vertical-align: middle; background-color: #FFFFFF; width: 280px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+
+/*stili per il FANTASFIGA (File: fantasfiga.htm) */
+div#fs    {font-family: Trebuchet MS; font-size: 9px; width: 550px; margin: 0 auto; margin-bottom: 0; border: 1px solid #FF0000;}
+table.fs  {font-family: Trebuchet MS; font-size: 9px; width: 100%;}
+tr.fs     {font-family: Trebuchet MS; font-size: 10px;}
+.fsTITOLO {font-family: Trebuchet MS; font-size: 12px; color: #FFFFFF; font-weight: bold;   text-align: left;   vertical-align: middle; background-color: #003366; width: 300px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+.fsNUMp   {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: center; vertical-align: middle; background-color: #66ccff; width:  40px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+.fsNUMd   {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: center; vertical-align: middle; background-color: #FFFFFF; width:  40px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+.fsNOMEp  {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: left;   vertical-align: middle; background-color: #66ccff; width: 260px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+.fsNOMEd  {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: left;   vertical-align: middle; background-color: #FFFFFF; width: 260px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+
+/*stili per il BEST ROSE (File: bestrose.htm) */
+div#bs    {font-family: Trebuchet MS; font-size: 9px; width: 550px; margin: 0 auto; margin-bottom: 0; border: 1px solid #FF0000;}
+table.bs  {font-family: Trebuchet MS; font-size: 9px; width: 100%;}
+tr.bs     {font-family: Trebuchet MS; font-size: 10px;}
+.bsTITOLO {font-family: Trebuchet MS; font-size: 12px; color: #FFFFFF; font-weight: bold;   text-align: left;   vertical-align: middle; background-color: #003366; width: auto; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+.bsSPAZIO {font-family: Trebuchet MS; font-size: 10px; color: #FFFFFF; font-weight: bold;   text-align: left;   vertical-align: middle; background-color: #003366; width: auto; height: 15px; margin-bottom: 0; border: 0px;}
+.bsSOTTIT {font-family: Trebuchet MS; font-size:  9px; color: #FFFFFF; font-weight: bold;   font-style: italic; text-align: center; vertical-align: middle; background-color: #003366; width: 150px; height: 15px; margin-bottom: 0; border: 0px;}
+.bsNOMEp  {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: left;   vertical-align: middle; background-color: #66ccff; width: 100px; height: 15px; margin-bottom: 0; border-right: 1px solid #FF0000;}
+.bsNOMEd  {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: left;   vertical-align: middle; background-color: #FFFFFF; width: 100px; height: 15px; margin-bottom: 0; border-top: 1px solid #FF0000; border-bottom: 1px solid #ff0000; border-right: 1px solid #ff0000;}
+.bsNUMp   {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: center; vertical-align: middle; background-color: #66ccff; width: 150px; height: 15px; margin-bottom: 0; border: 0px;}
+.bsNUMd   {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: center; vertical-align: middle; background-color: #FFFFFF; width: 150px; height: 15px; margin-bottom: 0; border-top: 1px solid #FF0000; border-bottom: 1px solid #ff0000;}
+
+/*stili per il FANTASFIGA (File: icomedia.htm - icomtot.htm) */
+div#ico    {font-family: Trebuchet MS; font-size: 9px; width: 550px; margin: 0 auto; margin-bottom: 0; border: 1px solid #FF0000;}
+table.ico  {font-family: Trebuchet MS; font-size: 9px; width: 100%;}
+tr.ico     {font-family: Trebuchet MS; font-size: 10px;}
+.icoTITOLO {font-family: Trebuchet MS; font-size: 12px; color: #FFFFFF; font-weight: bold;   text-align: left;   vertical-align: middle; background-color: #003366; width: auto; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+.icoNUMp   {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: center; vertical-align: middle; background-color: #66ccff; width:  50px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000; border-top: 1px solid #FF0000;}
+.icoNUMd   {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: center; vertical-align: middle; background-color: #FFFFFF; width:  50px; height: 15px; margin-bottom: 0; border: 0px;}
+.icoNOMEp  {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: left;   vertical-align: middle; background-color: #66ccff; width: 300; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000; border-top: 1px solid #FF0000;}
+.icoNOMEd  {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: left;   vertical-align: middle; background-color: #FFFFFF; width: 300; height: 15px; margin-bottom: 0; border: 0px;}
+
+/*stili per il ULTIMA GIORNATA E CALENDARIO MARCATORI (File: ultima.htm - calenbomber.htm) */
+div#ris       {font-family: Trebuchet MS;font-size: 9px;width: 550px;margin: 0 auto;margin-bottom: 0;
+               border: 1px solid #FF0000; float: center;text-align: center;}
+table.ris     {font-family: Trebuchet MS; font-size: 9px; width: 100%;}
+tr.ris        {font-family: Trebuchet MS; font-size: 10px;}
+.risTITOLO    {
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #003366;
+	width: 550px;
+	height: 15px;
+	margin-bottom: 0;
+	border: 0px solid #FF0000;
+}
+.risSQUADRA   {
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	vertical-align: middle;
+	background-color: #66ccff;
+	width: 305px;
+	height: 15px;
+	margin-bottom: 0;
+	border-bottom: 1px solid #FF0000;
+	border-top: 1px solid #ff0000;
+	padding: 0 3px 0 3px;
+}
+.risRISULTATO {font-family: Trebuchet MS; font-size: 14px; color: #000000; font-weight: bold; vertical-align: middle; background-color: #CCCCCC; width: 30px;  height: 15px; margin-bottom: 0; border-top: 1px solid #ff0000; border-right: 1px solid #FF0000; border-left: 1px solid #FF0000;}
+.risSPAZIO    {font-family: Trebuchet MS; font-size: 14px; color: #000000; font-weight: bold; vertical-align: middle; background-color: #FFFFFF; width: 20px;  height: 23px; margin-bottom: 0; border-top: 1px solid #FF0000;}
+.risMARCATORI {
+	font-family: Trebuchet MS;
+	font-size: 10px;
+	color: #000000;
+	font-weight: normal;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+	width: 305px;
+	height: 15px;
+	margin-bottom: 0;
+	border: 0px;
+	padding: 0 3px 0 3px;
+}
+.risMOM       {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; vertical-align: middle; background-color: #DDDDDD; width: 100%; height: 15px; border-top: 1px solid #FF0000; border-bottom: 1px solid #ff0000;}
+
+/*stili per il FANTAMISTER (File: fantamister.htm) */
+div#fm    {font-family: Trebuchet MS; font-size: 9px; width: 550px; margin: 0 auto; margin-bottom: 0; border: 0px solid #FF0000;}
+table.fm  {font-family: Trebuchet MS; font-size: 9px; width: 100%; border: 1px solid #ff0000;}
+tr.fm     {font-family: Trebuchet MS; font-size: 10px;}
+.fmTITOLO {font-family: Trebuchet MS; font-size: 12px; color: #FFFFFF; font-weight: bold; text-align: center; vertical-align: middle; background-color: #003366; width: 650px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+/*stili per Tabella: RIEPILOGO TOTALE SCARTO ASSOLUTO*/
+.scartoSQUADRA {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: bold; text-align: center; vertical-align: middle; background-color: #66ccff; width: 130px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+.scartoDATI    {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: bold; text-align: center; vertical-align: middle; background-color: #66ccff; width: 83px;  height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+/*stili per Tabella: RIEPILOGO TOTALE SCARTO PESATO SU VOTI VALIDI*/
+.riepilogoSQUADRA {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: bold; text-align: center; vertical-align: middle; background-color: #66ccff; width: 130px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+.riepilogoDATI    {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: bold; text-align: center; vertical-align: middle; background-color: #66ccff; width: 100px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+.riepilogoSPAZIO  {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: bold; text-align: center; vertical-align: middle; background-color: #66ccff; width: 350px; height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+/*stili per Tabella: DETTAGLIO MIGLIORI MODULI - Tutti i tipi*/
+.moduliTITOLO {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: bold;   text-align: center; vertical-align: middle; background-color: #66ccff; width: 650px; height: 15px; margin-bottom: 0; border-top: 1px solid #ff0000; border-bottom: 1px solid #FF0000;}
+.moduliDATI   {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: center; vertical-align: middle; background-color: #FFFFFF; width: 317px; height: 15px; margin-bottom: 0; border: 0px solid #FF0000;}
+.moduliIMG    {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: bold;   text-align: center; vertical-align: middle; background-color: #FFFFFF; width: 16px;  height: 16px; margin-bottom: 0; border: 0px solid #FF0000 none; background-image: url('img1.png'); background-position:  center 50%; background-repeat: no-repeat }
+/*stili per Tabella: DETTAGLIO GIORNATE*/
+.giornateSQUADRA {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: bold; text-align: center; vertical-align: middle; background-color: #66ccff; width: 140px;  height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000; border-right: 1px solid #ff0000;}
+.giornateSCARTO  {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: bold; text-align: center; vertical-align: middle; background-color: #66ccff; width: 48px;   height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000; border-right: 1px solid #ff0000;}
+.giornateVOTI    {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: bold; text-align: center; vertical-align: middle; background-color: #66ccff; width: 38px;   height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000; border-right: 1px solid #ff0000;}
+.giornateSCAVOTI {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: bold; text-align: center; vertical-align: middle; background-color: #66ccff; width: 48px;   height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000; border-right: 1px solid #ff0000;}
+.giornatePARZ    {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: bold; text-align: center; vertical-align: middle; background-color: #66ccff; width: 90px;  height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000; border-right: 1px solid #ff0000;}
+.giornateMAX     {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: bold; text-align: center; vertical-align: middle; background-color: #66ccff; width: 328px;  height: 15px; margin-bottom: 0; border-bottom: 1px solid #FF0000;}
+
+/*stili per il STATISTICHE SQUADRE (File: sq*.htm) */
+div#sq     {font-family: Trebuchet MS; font-size: 9px; width: 550px; margin: 0 auto; margin-bottom: 0; border: 0px;}
+table.sq   {font-family: Trebuchet MS; font-size: 9px; width: 100%; border: 1px solid #ff0000;}
+tr.sq      {font-family: Trebuchet MS; font-size: 10px;}
+.sqSQUADRA {font-family: Trebuchet MS; font-size: 18px; color: #FFFFFF; font-weight: bold; text-align: left; vertical-align: middle; background-color: #003366; width: 650px; height: 15px; margin-bottom: 0; border: 0px;}
+/*stili per Tabella: MODULI UTILIZZATI*/
+.sqTITMODULI    {font-family: Trebuchet MS; font-size: 12px; color: #FFFFFF; font-weight: bold; text-align: center; vertical-align: middle; background-color: #003366; width: 650px; height: 15px; margin-bottom: 0; border: 0px;}
+.sqmoduliDATI   {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: center; vertical-align: middle; background-color: #FFFFFF; width: 317px; height: 15px; margin-bottom: 0; border: 0px;}
+.sqmoduliIMG    {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: bold;   text-align: center; vertical-align: middle; background-color: #FFFFFF; width: 16px;  height: 16px; margin-bottom: 0; border: 0px none; background-image: url('img1.png'); background-position:  center 50%; background-repeat: no-repeat }
+/*stili per Tabella: FANTACANNONIERI*/
+.sqCANNONIERI {font-family: Trebuchet MS; font-size: 12px; color: #FFFFFF; font-weight: bold; text-align: center; vertical-align: middle; background-color: #003366; width: 650px; height: 15px; margin-bottom: 0; border: 0px;}
+.sqGOLp       {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: center; vertical-align: middle; background-color: #66ccff; width:  20px; height: 15px; margin-bottom: 0; border: 0px;}
+.sqGOLd       {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: center; vertical-align: middle; background-color: #FFFFFF; width:  20px; height: 15px; margin-bottom: 0; border: 0px;}
+.sqNOMEp      {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: left;   vertical-align: middle; background-color: #66ccff; width: 630px; height: 15px; margin-bottom: 0; border: 0px;}
+.sqNOMEd      {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: left;   vertical-align: middle; background-color: #FFFFFF; width: 630px; height: 15px; margin-bottom: 0; border: 0px;}
+/*stili per Tabella: PRESENZE*/
+.sqPRESENZE {font-family: Trebuchet MS; font-size: 12px; color: #FFFFFF; font-weight: bold; text-align: center; vertical-align: middle; background-color: #003366; width: 650px; height: 15px; margin-bottom: 0; border: 0px;}
+.sqNUMp     {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: center; vertical-align: middle; background-color: #66ccff; width:  20px; height: 15px; margin-bottom: 0; border: 0px;}
+.sqNUMd     {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: center; font-style: italic; vertical-align: middle; background-color: #FFFFFF; width:  20px; height: 15px; margin-bottom: 0; border: 0px;}
+.sqGIOp     {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: left;   vertical-align: middle; background-color: #66ccff; width: 630px; height: 15px; margin-bottom: 0; border: 0px;}
+.sqGIOd     {font-family: Trebuchet MS; font-size: 10px; color: #000000; font-weight: normal; text-align: left;   font-style: italic; vertical-align: middle; background-color: #FFFFFF; width: 630px; height: 15px; margin-bottom: 0; border: 0px;}
+
+
+<!-- fantahisto -->
+table.fantahisto{
+	width: 500px;
+	height: auto;
+	font-family: "Trebuchet MS";
+   	font-size: small;
+}
+table.fantahisto tr.intestazione, tr.intestazione2a{
+	background-color: #003366;
+	color: #ffffff;
+		font-family: "Trebuchet MS";
+	font-size: small;
+	padding-left: 5px;
+}
+
+table.fantahisto td.int_tendina{
+	text-align: left;
+	padding-left: 5px;
+}
+
+table.fantahisto td.int_generale, td.int_incasa, td.int_fuoricasa{
+	text-align: center;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+	font-family: "Trebuchet MS";
+	font-size: small;
+	font-weight: bold;
+	border-color: #ffffff;
+			color:#FFFFFF;
+
+}
+
+table.fantahisto td.int2_nomesquadra{
+	text-align: left;
+	padding-left: 5px;
+	border-bottom: 1px;
+border-bottom-color: #ff0000:
+font-weight: bold;
+font-family: "Trebuchet MS";
+font-size: small;
+color: #ffffff;
+}
+table.fantahisto td.int_giocate, td.int_gen_v, td.int_gen_n, td.int_gen_p,	td.int_gen_gf,	td.int_gen_gs {
+	border-bottom: 1px;
+	text-align: right;
+	font-family: "Trebuchet MS";
+font-size: small;
+border-bottom-color: #ff0000:
+text-align: center;
+	font-weight: bold;
+		color:#FFFFFF;
+
+}	
+
+table.fantahisto td.int_giocate, td.int_casa_v{
+	border-left: 1px solid white;
+	color:#ffffff;
+		font-family: "Trebuchet MS";
+font-size: small;
+	text-align: right;
+
+
+}
+
+table.fantahisto td.int_casa_v, td.int_casa_n, td.int_casa_p {
+	border-bottom: 1px;
+border-bottom-color: #ff0000:
+text-align: right;
+		font-family: "Trebuchet MS";
+font-size: small;
+	color:#ff0000;
+}
+
+table.fantahisto td.int_fuori_v{
+	border-left: 1px solid white;
+	font-weight: bold;
+		font-family: "Trebuchet MS";
+font-size: small;
+	color:#FFFFFF;
+
+}
+table.fantahisto td.int_fuori_n, td.int_fuori_v, td.int_fuori_p{
+	border-bottom: 1px;
+	border-bottom-color: #ff0000:
+	text-align: right;
+	font-weight: bold;
+			font-family: "Trebuchet MS";
+font-size: small;
+	color:#FFFFFF;
+
+}
+
+
+table.fantahisto td.dati_squa {
+	text-align: left;
+	padding-left: 5px;
+	border-bottom: 1px;
+border-bottom-color: #ff0000:
+font-weight: bold;
+	background-color:  #ffffff;
+}
+
+table.fantahisto td.dati_tot_g {
+	font-weight: bold;
+	text-align: right;
+	padding-right: 5px;
+	border-left: 1px solid red;
+	border-bottom: 1px;
+border-bottom-color: #ff0000:
+background-color:  #ffffff;
+}
+
+table.fantahisto td.dati_gen_v, td.dati_gen_n, td.dati_gen_p, td.dati_gen_gf, td.dati_gen_gs {
+	text-align: right;
+	padding-right: 5px;
+	border-bottom: 1px;
+border-bottom-color: #ff0000:
+background-color:  #ffffff;
+}
+
+table.fantahisto td.dati_casa_v{
+	border-left: 1px solid red;
+} 
+
+table.fantahisto td.dati_casa_v, td.dati_casa_n, td.dati_casa_p {
+	text-align: right;
+	padding-right: 5px;
+	border-bottom: 1px;
+border-bottom-color: #ff0000:
+background-color:  #ffffff;
+}
+
+table.fantahisto td.dati_fuori_v{
+	border-left: 1px solid red;
+	background-color:  #ffffff;
+} 
+
+table.fantahisto td.dati_fuori_v, td.dati_fuori_n, td.dati_fuori_p {
+	text-align: right;
+	padding-right: 5px;
+	border-bottom: 1px;
+border-bottom-color: #ff0000:
+background-color:  #ffffff;
+}
+
+table.fantahisto tr.bb, tr.er{
+ 	line-height: 25px;
+	background-color:  #33ccff;
+	font-weight: bold;}       
+
+table.fantahisto td.bb_int {
+  	text-align: left;
+	padding-left: 5px;
+	border-bottom: 1px;
+border-bottom-color: #ff0000:
+font-weight: bold;
+} 
+
+table.fantahisto td.bb_nome, td.bb_valore {
+	border-bottom: 1px;
+border-bottom-color: #ff0000:
+font-weight: bold;
+color: #ffffff;
+} 
+
+table.fantahisto td.er_int{
+	text-align: left;
+	padding-left: 5px;
+	border-bottom: 1px;
+border-bottom-color: #ff0000:
+font-weight: bold;
+} 
+
+table.fantahisto td.er_nome td.er_valore {
+	border-bottom: 1px;
+border-bottom-color: #ff0000:
+color: #ff0000;
+
+} 

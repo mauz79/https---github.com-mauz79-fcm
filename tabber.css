@@ -1,0 +1,76 @@
+div.tabpanel {
+width:500px;
+background-color:#ffffff;
+margin-bottom:0;
+border: #003366;
+}
+
+div.tabpanel div.tab {
+height:110px;
+overflow:auto;
+border:1px #003366;
+border-top:1px #003366;
+padding:10px;
+}
+
+div.tab h2 {
+width:auto;
+text-align:center;
+font-size:150%;
+margin:0;
+padding:0.1em 0;
+}
+
+div.tab p {
+margin-top:0;
+color:#003366;
+font-family:"Trebuchet MS";
+font-size:7pt;
+}
+
+ul.tabnav {
+width:100%;
+overflow:hidden;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+ul.tabnav li {
+float:left;
+margin:0 0 0 0.1em;
+padding:0;
+}
+
+ul.tabnav a {
+float:left;
+background:url(img/tab.gif) no-repeat;
+height:30px;
+width:70px;
+text-decoration:none;
+color:#003366;
+font-family:"Trebuchet MS";
+font-size:7pt;
+padding:0 0 0 0.8em;
+}
+
+ul.tabnav span {
+float:left;
+white-space:nowrap;
+cursor:pointer;
+padding:0.6em 0.8em 0.6em 0;
+}
+
+ul.tabnav a.active,ul.tabnav a:hover {
+background:url(img/tab2.gif) no-repeat;
+height:30px;
+width:70px;
+border:0;
+font-family:"Trebuchet MS";
+font-size:7pt;
+}
+
+ul.tabnav a.active span,ul.tabnav a:hover span {
+color:#003366;
+border:0;
+}

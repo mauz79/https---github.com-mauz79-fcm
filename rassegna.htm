@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it">
+<head>
+
+
+ 	<title>Rassegna Stampa</title>
+	<meta name="author" content="Andrea Bertolazzi - www.badtothebone.it">
+	<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+	<meta content="text/css" http-equiv="Content-Style-Type">
+	<link href="fcmmael.css" rel="stylesheet" type="text/css">
+  <style>
+.bottoni {
+border: 1px #000000;
+border-style: solid;
+font-family: Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+font-size: 10.75px;
+font-style: normal;
+}
+
+.tendina {
+border: 1px #000000;
+border-style: solid;
+font-family: Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+font-size: 11.75px;
+font-style: normal;
+}
+ 
+  .Stile3 {color: #003366}
+  </style>
+
+  <script language="Javascript">
+<!--    
+
+var isIE=document.all?true:false;
+var isDOM=document.getElementById?true:false;
+current = 0;
+PicVar = 0;
+
+PicVal = new Array();
+TitVal = new Array();
+DatVal = new Array();
+TxtVal = new Array();
+
+PicVal[PicVar] = "http://www.gazzetta.it/primapagina/images/prima_pagina_grande.png";
+TitVal[PicVar] = "Gazzetta dello Sport";
+TxtVal[PicVar++] = "Prima Pagina";
+
+PicVal[PicVar] = "http://edicola.corrieredellosport.it/newsmem/corsport/prima/nazionale_prima.jpg";
+TitVal[PicVar] = "Corriere dello Sport";
+TxtVal[PicVar++] = "Prima Pagina";
+
+PicVal[PicVar] = "http://212.239.39.34/newsmem/tuttosport/prima/prima.jpg";
+TitVal[PicVar] = "Tuttosport";
+TxtVal[PicVar++] = "Prima Pagina";
+
+function Show_foto(newpic) {
+  if(isDOM)document.getElementById("_foto").src = PicVal[newpic];
+  else if(isIE) document._foto.src = PicVal[newpic];
+  SelectionBox = document.form_foto.menudrop;
+  SelectionBox.options[newpic].selected = true;
+  current = newpic;
+}
+function Previous_foto() {
+  TotalImages = document.form_foto.menudrop.options.length;
+  current--;
+  if(current<0) current = TotalImages - 1;
+  Show_foto(current);
+}
+function Next_foto() {
+  TotalImages = document.form_foto.menudrop.options.length;
+  current++;
+  if (current>=TotalImages) current = 0;
+  Show_foto(current);
+}
+function TG_5() {
+  href="golgiornali.htm";
+}
+
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+  </script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'img/buttonD.jpg', /*url*/'img/buttonE.jpg')">
+
+<div align="center">
+
+
+<form name="form_foto">
+  <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" bordercolor="#003366" bgcolor="#FFFFFF" style="border: 1px solid #2323B3;">
+
+    <tbody>
+      <tr align="center">
+	<td height="62" colspan="3" bgcolor="#FFFFFF" style="padding-left: 10px; padding-top: 12px; padding-right: 15px;"> 
+      <h2 style="text-align: left;" class="titletext">Rassegna Stampa</h2>
+      <tr></tr>
+
+      </td>
+        <td width="100%" height="30" colspan="2" bordercolor="#FF0000" bgcolor="#FFFFFF">
+
+        
+          <span class="Stile3">
+          <script language="Javascript">
+document.write("<h2 style='text-align: left;' class='titletext'>La Rassegna contiene  " + PicVar + "  Quotidiani</h2>");
+          </script>
+          </span></td>
+      </tr>
+
+      <tr align="center">
+
+        <td width="100%" height="30" colspan="2" bordercolor="#FF0000" bgcolor="#FFFFFF"><span class="Stile3"></span> </td>
+      </tr>
+
+      <tr align="center">
+
+        <td width="70%" bordercolor="#FF0000" bgcolor="#FFFFFF">
+        <span class="Stile3"><img id="_foto" name="_foto" src="http://www.gazzetta.it/PrimaPagina/view.jpg" border="1" width='370'/>        </span>
+        <p class="Stile3">&nbsp;</p>        </td>
+
+        <td width="30%" align="left" valign="top" bordercolor="#FF0000" bgcolor="#FFFFFF">
+       <span class="Stile3"><a href="golgiornali.htm"><img src="img/buttonC.jpg" alt="Guarda SKY TG24" name="img1" width="100" height="20" border="1" id="img1" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/buttonE.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/buttonD.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/buttonD.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/buttonC.jpg')" fp-style="fp-btn: Simple Line 2; fp-justify-vert: 2; fp-bgcolor: #FFFFFF" fp-title="Guarda SKY TG24"></a>        </span> 
+	           <p class="Stile3">
+        <input value=".: Precedente :." onclick="Previous_foto();" class="bottoni" type="button" /></p>
+		<p class="Stile3"> <input value=" .: Prossima :.  " onclick="Next_foto();" class="bottoni" type="button" /></p>
+		<p class="Stile3"><script language="javascript">
+<!--
+  TotalImages = PicVar;
+    document.write("<SELECT class='tendina' name='menudrop' onChange='Show_foto(form_foto.menudrop.options.selectedIndex);'>");
+  for (loop=0; loop < TotalImages; loop++)
+  {
+  document.write("<option value=" + PicVal[loop] + ">" + TitVal[loop] + "</option>");
+  }
+-->
+        </script>
+		<p class="Stile3"></td>
+      </tr>
+    </tbody>
+  </table>
+
+</form>
+
+</div>
+<script type="text/javascript" language="javascript" src="fkounter5/counter.js.php?id=rassegnastampa&mode=hidden"></script>
+</body>
+</html>

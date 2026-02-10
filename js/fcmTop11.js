@@ -1,0 +1,13 @@
+var arrTop11=new Array()
+a = arrTop11
+a[1]=new T11("P","SOMMER Yan","Liverposs",7)
+a[2]=new T11("D","KALULU Pie","FC Squirt Game",10)
+a[3]=new T11("D","AKANJI Man","Paris San Gonzen",9.5)
+a[4]=new T11("D","BISSECK Yan","Paris San Gonzen",9.5)
+a[5]=new T11("C","MCTOMINAY Sco","AS Intomatici",10.5)
+a[6]=new T11("C","GANDELMAN Omr","Interamnia Sooner",10)
+a[7]=new T11("C","LUIS HENRIQUE Tom","F.C. Boliverz",10)
+a[8]=new T11("C","MCKENNIE Wes","Real Colly",10)
+a[9]=new T11("A","MALEN Don","Scarsenal",14)
+a[10]=new T11("A","HOJLUND Ras","Real Moscardelli",12)
+a[11]=new T11("A","KRSTOVIC Nik","F.C. Pitbull",10.5)

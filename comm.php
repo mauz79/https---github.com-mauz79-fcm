@@ -1,0 +1,64 @@
+<head>
+	<meta name="author" content="Andrea Bertolazzi - www.badtothebone.it">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Calendario</title>
+	<link rel="stylesheet" type="text/css" href="puffin_ng/PnG.css" />
+	<link a href="fcmmael.css" rel="stylesheet" type="text/css">
+	<base target="_self">
+	<script type="text/javascript">
+	function NGpwd(argomento){
+	window.open(argomento,"NGpwd","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,width=630,height=300");
+	}
+	</script>
+	<script src="js/fcmVariabili.js" type="text/javascript"></script>
+	<script src="js/fcmLegaDati.js" type="text/javascript"></script>
+	<script src="js/fcmGenerale.js" type="text/javascript"></script>
+	<script src="js/fcmUtils.js" type="text/javascript"></script>
+	<script src="js/fcmCompetizioniFunzioni.js" type="text/javascript"></script>
+	<script src="js/fcmCompetizioniDati.js" type="text/javascript"></script>
+	<script src="js/fcmCalendarioFunzioni.js" type="text/javascript"></script>
+	<script src="js/fcmCalendarioDati.js" type="text/javascript"></script>
+	<script src="js/DataA.js" type="text/javascript"></script>
+	<script language="javascript" type="text/javascript">
+	
+    //quando si fa un document.write di un javascript, il tag di chiusura non va messo intero,
+	//altrimenti i browser lo interpretano senza considerare che è dentro un document.write 
+	document.write("<script src='js/fcmTabelle.js' type='text/javascript'></scr" + "ipt>")
+	</script>
+    <style type="text/css">
+<!--
+.Stile3 {color: #003366}
+-->
+    </style>
+</head>
+<body>
+	<table width="100%" border="0" cellpadding="0" cellspacing="0" bordercolor="#003366" bgcolor="#FFFFFF" style="border: 1px solid #003366; padding-bottom: 120px;"> 
+	<tbody>
+		<tr><!-- INTESTAZIONE PAGINA -->
+			<td height="62" colspan="3" bgcolor="#FFFFFF" style="padding-left: 10px; padding-top: 12px; padding-right: 15px;"> 
+				<h2 class="titletext Stile3">Commenti alla Giornata</h2>
+			    <span class="Stile3">
+			    <!-- FINE INTESTAZIONE PAGINA --> 
+				</span>
+			    <h2 class="Stile3">Da quest'anno proponiamo il nuovo servizio dei commenti alla giornata, direttamente dalle migliori penne nazionali, per la nostra AlterLega.</h2>
+				<p class="Stile3">
+	
+			
+				
+				<?
+	$filename = 'puffin_ng/p_ng.txt';
+	if (!file_exists($filename)) 
+	echo "Nessun commento ancora generato!";
+	else 
+	include ($filename);
+	?>
+				</p>		  </td>
+		</tr>
+	</tbody>
+</table>
+<a href="#" onClick="NGpwd('puffin_ng/p_ng.php')" ><img src="img/key.gif" border:"none"></a>
+
+<!--	<script type="text/javascript" language="javascript" src="fkounter5/counter.js.php?id=cale&mode=hidden"></script>
+Counter... sostituite id=cale con id=nomecontatoreperquestapagina-->
+</body>
+	
